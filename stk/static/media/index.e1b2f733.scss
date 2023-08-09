@@ -1,0 +1,42 @@
+.header {
+  width: 100%;
+  height: 70px;
+  background: rgba(0, 0, 0, 1);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  .mg {
+    width: 100%;
+  }
+  .main {
+    width: 100%;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 60px;
+      height: 44px;
+    }
+  }
+  .right {
+    position: absolute;
+    right: .714286rem;
+    top: 1rem;
+    img{
+      margin-left: .714286rem;
+    }
+  }
+}
+.header2{
+  height: 3.214286rem;
+  .main {
+    height: 3.214286rem;
+    img{
+      width: 3.071429rem;
+      height: 2.214286rem;
+    }
+  }
+}

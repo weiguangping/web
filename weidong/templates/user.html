@@ -1,0 +1,62 @@
+		<ion-view view-title="用户" class="user">
+		<ion-header-bar align-title="center" class="bar-positive">
+			<a href="javascript:history.back();" class="button ion-ios-arrow-left"></a>
+			
+			<h3 class="title">个人中心</h3>
+			<a href="javascript:;" class="button ion-loop" on-tap="reload()"></a>
+		</ion-header-bar>
+		<ion-content>
+			<div class="content-header">
+				<img ng-src="img/user/user1.jpg" alt=""/>
+				<div class="header-img">
+					<img ng-src="img/user/user1.png" alt="" on-tap="log()"/>
+					<p>桃色宝宝</p>
+				</div>
+				<div class="header-bottom">
+					<a href="javascript:;">完善个人信息</a><a href="javascript:;" class="icon icon-left ion-gear-b">账号设置</a>
+				</div>
+			</div>
+			<div class="content-center">
+				<div class="item title item-button-right">
+					<img src="img/user/user2.png"/><span>我的订单</span>
+					<a href="#/confirm_order" class="button button-clear" on-tap="setdata()">查看全部订单<i class="icon ion-ios-arrow-forward"></i></a>
+				</div>
+				<div class="tabs tabs-icon-top">
+				 <a class="tab-item" href="#/confirm_order" on-tap"setdata()">
+				    <i class="icon ion-card"></i>
+				    待付款
+				  </a>
+				 <a class="tab-item" href="#/confirm_order" on-tap"setdata()">
+				    <i class="icon ion-ios-upload-outline"></i>
+				    待发货
+				  </a>
+				  <a class="tab-item" href="#/confirm_order" on-tap"setdata()">
+				    <i class="icon ion-android-car"></i>
+				    待收货
+				  </a>
+				  <a class="tab-item" href="#/confirm_order" on-tap"setdata()">
+				    <i class="icon ion-ios-chatboxes-outline"></i>
+				    待评价
+				  </a>
+				  <a class="tab-item" href="#/confirm_order" on-tap"setdata()">
+				    <i class="icon ion-social-pinterest"></i>
+				    退货退款
+				  </a>
+				</div>
+			</div>
+			<div class="list list-bottom">
+				<div class="item item-icon-right">
+					<img ng-src="img/user/user4.png" alt="" /><a href="##">我的收藏<i class="icon ion-ios-arrow-forward"></i></a>
+				</div>
+				<div class="item item-icon-right">
+					<img ng-src="img/user/user5.png" alt="" /><a href="##">我的留言<i class="icon ion-ios-arrow-forward"></i></a>
+				</div>
+				<div class="item item-icon-right">
+					<img ng-src="img/user/user6.png" alt="" /><a href="##">我的优惠券<i class="icon ion-ios-arrow-forward"></i></a>
+				</div>
+				<div class="item item-icon-right">
+					<img ng-src="img/user/user7.png" alt="" /><a href="##">我的收货地址<i class="icon ion-ios-arrow-forward"></i></a>
+				</div>
+			</div>
+		</ion-content>
+		</ion-view>

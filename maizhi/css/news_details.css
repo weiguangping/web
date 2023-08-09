@@ -1,0 +1,12 @@
+body{min-height: 1315px;}
+section .banner{height: 163px;}
+section .sidebar{height: 350px;}
+.list .main .bottom h3{font-size: 16px;color: #333333;text-align: center;margin: 10px 0 3px 0px;}
+.list .main .bottom>p.address{text-align: center;font-size: 12px;text-indent: 0em;}
+.list .main .bottom>p{font-size: 14px;text-indent: 2em;padding: 0 15px;}
+section .list>.main>.bottom{height: 480px;}
+.list .main .bottom>p.prevtext{float: left;margin-top: 20px;font-size: 14px;}
+.list .main .bottom>p.nexttext{float: right;margin-top: 20px;font-size: 14px;margin-right: 20px;}
+.list .main .bottom>p a{font-size: 14px;}
+.list .main .bottom>p a:hover{color: #0a4390;}
+.sidebar ul>li>a{text-align: center;padding: 0;}

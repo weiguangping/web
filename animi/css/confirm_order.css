@@ -1,0 +1,226 @@
+
+.border_orde{
+	margin: 16px auto 70px;
+	border: 1px solid #a0a0a0;
+	
+	-webkit-box-shadow:0 0 10px 2px #b3b3b3;  
+  	-moz-box-shadow:0 0 10px 2px #b3b3b3;  
+  	box-shadow:0 0 10px 2px #b3b3b3; 
+}
+.container .mg .top{
+	margin-left: 2px;
+	margin-top: 2px;
+	height: 54px;
+	background-color: #e5e5e5;
+	margin-bottom: 23px;
+}
+.container .mg .top .input {
+	display: inline-block;
+	width: 170px;
+}
+.container .mg .top .input label{
+	margin-left: 14px;
+	line-height: 54px;
+	font-size: 18px;
+}
+.container .mg .top .input label input{
+	margin-right: 5px;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #666666;
+	
+	vertical-align: middle;
+	/*background-color: #FFFFFF;*/
+	-webkit-appearance: none;
+	appearance: none;
+	margin-right: 6px;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #6b6b6b;
+	cursor: pointer;
+  	position: relative;
+  	margin-top: -5px;
+}
+.container .mg .top .input label input:checked:after{
+	display: block;
+	content: url(../img/base/gou.png);
+  	position: absolute;
+  	top: -4px;
+  	left: 1px;
+  	z-index: 2;
+}
+.container .mg .top .info {
+	display: inline-block;
+	width: 280px;
+	font-size: 18px;
+	line-height: 54px;
+}
+.container .mg .top .price {
+	display: inline-block;
+	width: 215px;
+	font-size: 18px;
+	line-height: 54px;
+	
+}
+.container .mg .top .number {
+	display: inline-block;
+	width: 170px;
+	font-size: 18px;
+	line-height: 54px;
+}
+.container .mg .top .zhe {
+	display: inline-block;
+	width: 210px;
+	font-size: 18px;
+	line-height: 54px;
+}
+.container .mg .top .tolpri {
+	display: inline-block;
+	width: 130px;
+	font-size: 18px;
+	line-height: 54px;
+}
+
+
+.container  li{
+	padding: 20px 0;
+	clear: both;
+	overflow: hidden;
+	background: #e5e5e5;
+	margin-bottom:30px;
+	 margin-left: 2px;
+}
+.container  li div{
+	float: left;
+}
+.container  li div.input input{
+	margin-left: 14px;
+	display: inline-block;
+	width: 14px;height: 14px;
+	
+	
+	vertical-align: middle;
+	/*background-color: #FFFFFF;*/
+	-webkit-appearance: none;
+	appearance: none;
+	margin-right: 6px;
+	/*width: 14px;*/
+	/*height: 14px;*/
+	border: 1px solid #6b6b6b;
+	cursor: pointer;
+  	position: relative;
+}
+.container  li div.input input:checked:after{
+	display: block;
+	content: url(../img/base/gou.png);
+  	position: absolute;
+  	top: -4px;
+  	left: 1px;
+  	z-index: 2;
+}
+.container  li div.info{width: 416px;box-sizing: border-box;text-align: left;}
+.container  li div.info img{float: left;margin-left: 36px;margin-right: 10px;border: 1px solid #8f8f8f;width: 116px;height: 104px;}
+.container  li div p{font-size: 14px;margin-top: 30px;}
+.container  li div.info .text{float: left;}
+.container  li div.info .text p{font-size: 12px;margin: 0;}
+.container  li div.info .text p:first-of-type{margin-top: 7px;}
+.container  li div.info .text p:nth-child(3){margin-top: 7px;}
+.container  li div.info .text p a{font-size: 12px;}
+.container  li div.price{width: 80px; text-align: center;}
+.container  li div.price a{display: block; width: 70px; height: 20px; border: 1px solid #cf0000; text-align: center; color: #cf0000;}
+.container  li div.num{width: 260px;text-align: center;padding-left: 132px;box-sizing: border-box; padding-top: 30px;}
+.container  li div.num p{ margin: 0; text-align: left; padding-left: 26px;}
+.container  li div.num input{ display: block; float: left;}
+.container  li div.num input[type=text]{ width: 36px; height: 24px;border: 1px solid #aaaaaa; border-left:none ;border-right:none ; padding: 0; text-align: center;}
+.container  li div.num input[type=button]{ width: 20px; height: 26px; border: 1px solid #aaaaaa; background-color: #FFFFFF; cursor: pointer;}
+.container  li div.zhe{width: 180px;text-align: center;padding-left: 30px;box-sizing: border-box;}
+.container  li div.zhe p{margin-top: 30px; text-align: left; padding-left: 28px; color: #c73f3f;}
+.container  li div.tolpri{width: 226px;font-size: 18px;  text-align: center;}
+.container  li div.tolpri p{margin-top: 30px; text-align: left; padding-left:104px; }
+
+
+
+.container .mg .bottom{
+	overflow: hidden;
+	margin-top: 40px;
+}
+.container .mg .bottom .min{
+	float: left;
+	width: 530px;
+	margin-left: 240px;
+}
+.container .mg .bottom .min p{
+	font-size: 18px;
+	color: #666666;
+}
+.container .mg .bottom .min p input{
+	width: 410px;
+	height: 34px;
+}
+.container .mg .bottom .right{
+	/*height: 230px;*/
+	width: 370px;
+	float: right;
+	margin-right: 54px;
+	margin-bottom: 34px;
+}
+.container .mg .bottom .right p{
+	text-align: right;
+	font-size: 18px;
+	line-height: 34px;
+	color: #666666;
+}
+.container .mg .bottom .right p span{
+	font-size: 18px;
+	color: #CF231E;
+}
+.container .mg .bottom .right p select{
+	font-size: 18px;
+	color: #666666;
+	cursor: pointer;
+	outline：none;
+}
+.container .mg .bottom .right p option{
+	display: inline-block;
+	font-size:18px;
+	color: #666666;
+	outline：none;
+}
+.container .mg .bottom .right p label{
+	font-size: 18px;
+	color: #666666;
+}
+.container .mg .bottom .right p input{
+	margin-right: 5px;
+	vertical-align: middle;
+	background-color: #FFFFFF;
+	-webkit-appearance: none;
+	appearance: none;
+	margin-right: 6px;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #6b6b6b;
+	cursor: pointer;
+  	position: relative;
+}
+.container .mg .bottom .right p input:checked:after{
+	display: block;
+	content: url(../img/base/gou.png);
+  	position: absolute;
+  	top: -4px;
+  	left: 1px;
+  	z-index: 2;
+}
+.container .mg .bottom .right p a{
+	display: block;
+	width: 120px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #cf231e;
+	border-radius:5px ;
+	float: right;
+}

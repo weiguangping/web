@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>注册登录</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/yixin.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="f_1">
+                    <a href="index.html">
+                        <img src="images/logo.jpg">
+                    </a>
+                    <span class="channel">新用户注册</span>
+                </div>
+            </div>
+            <!-- <div class="f_r"></div> -->
+        </div>
+    </div>
+    <div class="wrapb">
+        <div class="container">
+            <div class="row">
+                <div class="login-main">
+                    <div class="login-nav clear"><a class="active">登录</a><a>注册</a></div>
+                    <div class="clearfix">
+                        <div class="login-box">
+                            <div class="login-log">
+                                <div class="element">
+                                    <em class="icon-user"></em>
+                                    <input type="text" mag="用户名不得为空" placeholder="用户名/手机号/邮箱" class="username f_l">
+                                </div>
+                                <div class="element click-view">
+                                    <em class="icon-pass"></em>
+                                    <a href="javascript:;" class="ico-view" tabindex="-1"></a>
+                                    <input type="password" maxlength="20" mag="密码不得为空" placeholder="密码长度应为6-20位" class="userpass f_l">
+                                </div>
+                                <div class="element yanzheng">
+                                    <em class="icon-yanz"></em>
+                                    <input type="text" placeholder="验证码" class="username f_l">
+                                    <a class="shuryz"><img src="images/secode_show.png"></a>
+                                </div>
+                                <div class="memory">
+                                    <label for="autologin" class="jizhumima">
+                                        <input type="checkbox" name="autologin" id="autologin" /> 自动登录
+                                    </label>
+                                    <a href="javaseave:" class="wangji">忘记密码？</a>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="logintip"><span id="span_msg_tip"><b>321</b></span></div>
+                                <div class="denglu">
+                                    <button class="button"><span class="primary submit">登录</span></button>
+                                </div>
+                            </div>
+                            <div class="login-reg" style="display:none;">
+                                <div class="element hongk">
+                                    <em class="icon-user"></em>
+                                    <input type="text" placeholder="手机号" class="username f_l">
+                                </div>
+                                <div class="element yanzheng">
+                                    <em class="icon-yanz"></em>
+                                    <input type="text" placeholder="验证码" class="username f_l">
+                                    <a class="fasong">发送验证码</a>
+                                </div>
+                                <div class="element click-view">
+                                    <em class="icon-pass"></em>
+                                    <a href="javascript:;" class="ico-view" tabindex="-1"></a>
+                                    <input type="password" maxlength="20" placeholder="密码长度应为6-20位" class="userpass f_l">
+                                </div>
+                                <div class="element click-view">
+                                    <em class="icon-pass"></em>
+                                    <a href="javascript:;" class="ico-view" tabindex="-1"></a>
+                                    <input type="password" maxlength="20" placeholder="确定密码" class="userpass f_l">
+                                </div>
+                                <div class="xieyi clear">
+                                    <label for="autologin" class="xieyig">
+                                        <input type="checkbox" name="autologin" id="autologin" /> 我已阅读并接受
+                                    </label>
+                                </div>
+                                <div class="denglu">
+                                    <button class="button"><span class="primary submit">注册</span></button>
+                                </div>
+                            </div>
+                            <div class="clearfix">
+                                <span class="" style="line-height:30px; float:left;">用合作账号登录：</span>
+                                <div class="login-hezuo">
+                                    <a href="" class="icowx"></a>
+                                    <a href="" class="icoqq"></a>
+                                    <a href="" class="icosina"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wpassword">
+        <div class="heizao"></div>
+        <div class="wjkt">
+            <div class="kuank diyidu1">
+                <p>请输入你需要找回登录密码的账户名</p>
+                <div class="tiao">
+                    <b>账户名：</b>
+                    <input type="text" placeholder="手机号" class="shurk">
+                </div>
+                <div class="tiao">
+                    <b>验证码：</b>
+                    <input type="text" placeholder="验证码" class="shurk erwei">
+                    <a class="fasyz">发送验证码</a>
+                </div>
+                <div class="xiayid" style="text-align:center;">
+                    <button class="button tiaoxy" style="width:40%; margin-top:10px;"><span>下一步</span></button>
+                </div>
+            </div>
+            <div class="kuank diyidu2" style="display:none;">
+                <p>请输入你新密码</p>
+                <div class="tiao">
+                    <b>新密码：</b>
+                    <input type="text" placeholder="" class="shurk">
+                </div>
+                <div class="tiao">
+                    <b>新密码：</b>
+                    <input type="text" placeholder="" class="shurk">
+                </div>
+                <div class="xiayid" style="text-align:center;">
+                    <button class="button tiaoxy2" style="width:40%; margin-top:10px;"><span>提交</span></button>
+                </div>
+            </div>
+            <div class="kuank diyidu3" style="display:none;">
+                <p>恭喜您，已成功修改密码成功！</p>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <span>
+      <a>关于我们</a><b>|</b>
+      <a>发布任务</a><b>|</b>
+      <a>帮助中心</a><b>|</b>
+      <a>版权所有</a>
+  </span>
+        <p>Copyright 2016 百单网 版权所有 粤ICP备16101535号-1</p>
+    </div>
+</body>
+
+</html>

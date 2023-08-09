@@ -1,0 +1,37 @@
+.banner{width: 100%;height: 573px;overflow: hidden;position: relative;}
+.banner a{position: absolute;left: 50%;margin-left: -960px;width: 1920px;height: 573px;}
+.banner a img{display: block;}
+.form_login{position: absolute;width: 500px;height: 419px;top: 50%;margin-top: -236px;z-index: 1000;left: 50%;margin-left: -250px;display: block;padding: 0 20px;}
+.form_login img{margin: 7px auto;}
+.form_login .box{padding: 15px 59px;background: white;}
+.form_login .box .name,.pass{background: url(../images/common/name.png) no-repeat 10px;padding-left: 40px;margin-bottom: 50px;height: 45px;line-height: 30px;}
+.form_login .box .pass{background: url(../images/common/pass.png) no-repeat 10px;}
+.form_login .on{background: url(../images/common/check1.png) }
+.form_login a{background: url(../images/common/check.png) no-repeat;display:inline-block;width: 21px;height: 23px;margin-left: 50px;}
+.form_login label{vertical-align:bottom;}
+.form_login .submit{width: 152px;height: 50px;background:red;color: white;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;border: none;font-size: 18px;margin-top: 20px;margin-left: 45px;}
+
+.content{position: relative;}
+.form_regit p{font-size: 24px;text-align: center;}
+.form_regit{position: absolute;z-index: 1000;display: block;top: 70px;left: 30%;max-width: 550px;}
+.form_regit .box{background: white;padding: 27px 15px 15px 15px;clear: both;overflow: hidden;}
+.form_regit .box input{margin-bottom: 10px;}
+.input-group label{text-align: right;margin-top: 5px;}
+.input-group select{appearance:none;-webkit-appearance:none;-moz-appearance:none;background: url(../images/common/san.png) no-repeat right 2px center;width: 60px;padding: 0 2px;}
+select::-ms-expand { display: none; }
+.form_regit div.select{float: none;margin: 0 auto;}
+.form_regit .select select{margin-top: 10px;margin-left:30px;}
+.form_regit .box .yzm{float: none;text-align: center;margin-top: 10px;}
+.form_regit .box .yzm1{width: 70px;margin-right: 20px;}
+.form_regit .box .yzm2{width: 51px;border: none;color: #333333;letter-spacing: 2px;display: inline-block;}
+.form_regit .box .change{color: #333333;font-weight: 600;}
+.form_regit .box .agree1{margin: 0 auto;font-weight: bold;}
+.form_regit .box .submit{width: 85px;height: 30px;background: red;border: none;margin:0 auto;color: white;display: block;text-align: center;line-height: 30px;text-align: center;}
+label{display: inline;}
+.form_regit .box form{width: 100%;}
+
+@media (max-width:767px ) {
+	.input-group label{padding: 0;}
+	.form_login{width: 100%;height: auto;left: 0;margin-left: 0;}
+	.content .pd{padding: 0 20px;}
+}

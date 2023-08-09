@@ -1,0 +1,70 @@
+		<ion-view view-title="确认订单" class="confirm_order">
+		<ion-header-bar align-title="center" class="bar-positive">
+			<a href="javascript:history.back();" class="button ion-ios-arrow-left"></a>
+			<h3 class="title">确认订单</h3>
+			<a href="javascript:;" class="button ion-loop" on-tap="reload()"></a>
+		</ion-header-bar>
+		
+		<ion-tabs class="tabs-top">
+			  <ion-tab title="全部">
+			      <ion-content>
+			      	<p>这是全部页面</p>
+			      </ion-content>
+			  </ion-tab>
+			  <ion-tab title="待付款" href="#/confirm_order">
+			    <ion-content>
+			    	<ion-list>
+						<ion-item class="item-thumbnail-left" ng-repeat="v in proList1" id="{{v.id}}">
+							<a ng-href="{{v.url}}"><img ng-src="{{v.img}}"/></a>
+							<p><a ng-href="{{v.url}}" ng-bind="v.name"></a></p>
+							<p>￥：<span ng-bind="v.price"></span>.00</p>
+							<div class="btn"><span>数量：</span><span ng-bind="{{v.number}}"></span></div>
+						</ion-item>
+					</ion-list>
+				</ion-content>
+				<div class="pay">
+					<span>总价格:￥<i ng-bind="totalPri"></i>.00</span>
+					<a href="#/pay">去支付</a>
+				</div>
+			  </ion-tab>
+			  <ion-tab title="待发货">
+			  	<ion-content>
+			    <p>这是待发货页面</p>
+			    </ion-content>
+			  </ion-tab>
+			   <ion-tab title="待收货">
+			   	<ion-content>
+			    <p>这是待收货页面</p>
+			    </ion-content>
+			  </ion-tab>
+			   <ion-tab title="待评价">
+			   	<ion-content>
+			    <p>这是待评价页面</p>
+			    </ion-content>
+			  </ion-tab>
+		</ion-tabs>
+			<ion-footer-bar class="footer">
+			<div class="tabs tabs-icon-top">
+				<a href="#/app/product" class="tab-item">
+					<i class="icon ion-bag"></i>
+					<span class="tab-title">逛逛</span>
+				</a>
+				<a href="#/app/prosort" class="tab-item">
+					<i class="icon ion-ios-keypad-outline"></i>
+					<span class="tab-title">分类</span>
+				</a>
+				<a href="#/app/homepage" class="tab-item">
+					<i class="icon ion-ios-box-outline"></i>
+					<span class="tab-title">首页</span>
+				</a>
+				<a href="#/app/shopcar" class="tab-item active">
+					<i class="icon ion-ios-cart-outline"></i>
+					<span class="tab-title">购物车</span>
+				</a>
+				<a href="#/app/user" class="tab-item">
+					<i class="icon ion-ios-person-outline"></i>
+					<span class="tab-title">我</span>
+				</a>
+			</div>
+		</ion-footer-bar>
+</ion-view>

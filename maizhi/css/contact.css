@@ -1,0 +1,9 @@
+body{min-height: 1499px;}
+.sidebar{height: 534px!important;}
+section .banner{height: 163px;}
+section .main .bottom li{margin-top: 20px;padding: 0 20px;height: 21px;}
+section .main .bottom li:hover a{color: #0a4390;}
+section .main .bottom li a{font-size: 16px;}
+section .main .bottom span{float: right;}
+section .list .main+div{display: none;}
+.sidebar ul>li>a{text-align: center;padding: 0;}

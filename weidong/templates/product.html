@@ -1,0 +1,53 @@
+<ion-view view-title="产品列表" class="pro">
+		<ion-header-bar align-title="center" class="bar-positive">
+			<a href="javascript:history.back();" class="button ion-ios-arrow-left"></a>
+
+			<h3 class="title">产品列表</h3>
+			<a href="javascript:;" class="button ion-loop" on-tap="reload()"></a>
+		</ion-header-bar>
+		<div class="row">
+				<div class="buttons" on-tap="left()">
+					<button class="ion-ios-arrow-back button-clear"></button>
+				</div>
+				<div class="ul col-90">
+					<ul class="row-wrap">
+						<li>
+							<a ng-href="javascript:;" class="active">项链</a>
+						</li>
+						<li>
+							<a ng-href="javascript:;">戒指</a>
+						</li>
+						<li>
+							<a ng-href="javascript:;">手链</a>
+						</li>
+						<li>
+							<a ng-href="javascript:;">吊坠</a>
+						</li>
+						<li>
+							<a ng-href="javascript:;">首饰</a>
+						</li>
+						<li>
+							<a ng-href="javascript:;">新款</a>
+						</li>
+						<li>
+							<a ng-href="javascript:;">旧款</a>
+						</li>
+					</ul>
+				</div>
+				<div class="buttons" on-tap="right()">
+					<button class="ion-ios-arrow-forward button-clear"></button>
+				</div>
+			</div>
+		<ion-content>
+			<div class="prolist list">
+				<div class="item item-thumbnail-left" ng-repeat="v in data" id="{{v.id}}">
+					<a ng-href="{{v.url}}"><img ng-src="{{v.img}}" alt="" /></a>
+					<p><a ng-href="{{v.url}}" ng-bind="v.name"></a></p>
+					<p class="price">￥:<span ng-bind="v.price"></span>.00</p>
+					<p>总销量:<span ng-bind="v.num"></span><i>|</i>评价:<span ng-bind="v.pin"></span></p>
+					<a href="#/confirm_order" class="buy" on-tap="buy($index)">立即购买</a><a href="javascript:;" class="add" on-tap="add($index,{{v.id}})">加入购物车</a>
+				</div>
+				<div class="otherText"></div>
+			</div>
+		</ion-content>
+</ion-view>

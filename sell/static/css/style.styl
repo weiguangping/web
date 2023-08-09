@@ -1,0 +1,400 @@
+.home 
+  text-align center
+  .mint-swipe 
+    width 100%
+    height 4rem
+    a
+      height 100%
+    img 
+      width 100%
+      height 100%
+  .list 
+    width 100%
+    display flex
+    align-items center
+    justify-content center
+    overflow hidden
+    .li 
+      width 25%
+      height 1rem
+      .iconfont 
+        font-size 0.4rem
+      p 
+        margin 0 auto
+        margin-top 0.1rem
+        width 80%
+      img 
+        width 0.3rem
+        height 0.3rem
+  .main 
+    .pro 
+      .li 
+        img 
+          width 100%
+          height 3rem
+/**********/
+.prodetails
+  .mint-swipe
+    height 4rem
+  .lun
+    img
+      width 100%
+      height 4rem
+  .det
+    h5
+      font-size .30rem
+    h4
+      font-size .26rem
+  .img
+    font-size 0
+    img
+      width 100%
+      max-height 4rem
+  .foot
+    position fixed
+    bottom 0
+    width 100%
+    height .8rem
+    background white
+    line-height .8rem
+    z-index 1000
+    .fotbtn
+      button
+        width 2rem
+        height .56rem
+        color #985c0c
+        border-radius 1rem
+        border 1px solid #985c0c
+        margin-left .1rem
+  .maskmain
+    img 
+      width 1.74rem
+      height 1.74rem
+      margin-right .2rem
+    h4
+      font-size .36rem
+      margin-bottom .2rem
+      margin-top .4rem
+    p
+    font-size .3rem
+    .gui
+      li
+        margin-bottom .1rem
+      h4
+        margin 0
+        margin-bottom .1rem
+      dl
+        display flex
+        flex-wrap wrap
+        dd
+          min-width .6rem
+          text-align center
+          border 1px solid #afafaf
+          border-radius @min-width
+          margin-right .1rem
+          padding .05rem .15rem .07rem .15rem
+          margin-bottom .1rem
+        .on
+          color red
+          border 1px solid red
+    .opa
+      h5
+        font-size .36rem
+        margin-bottom .1rem
+      font-size 0
+      .reduce
+        width .6rem
+        height .6rem
+        background none
+        border 1px solid #cac5c5
+        text-align center
+        vertical-align middle
+      .num
+        width 1rem
+        height .6rem
+        text-align center
+        border-top 1px solid #cac5c5
+        border-bottom 1px solid #cac5c5
+        vertical-align middle
+        font-size .3rem
+      .add
+        width .6rem
+        height .6rem
+        background none
+        border 1px solid #cac5c5
+        text-align center
+        vertical-align middle
+/**********/
+.cat
+  text-align center
+  height 100%
+  .left
+    height 100%
+    background white
+    overflow auto
+    width 30%
+    li
+      width 100%
+      padding .15rem .15rem
+      box-sizing border-box
+    .on
+      color red
+  .right
+    flex 1
+    height 100%
+    overflow auto
+    ul
+      flex-wrap wrap
+      li
+        width 33.3%
+        padding 0 .1rem
+        img 
+          width 100%
+          height 1rem
+// cart
+.cart
+  li
+    aligin-items center
+    -webkit-align-items center
+    .mint-checklist-label
+      width 20px
+      height 20px
+    .mint-cell-title
+      display none
+    .mint-cell-wrapper
+      background-image none
+    .mint-cell:last-child
+      background-image none
+    .mint-cell-value
+      width 100%
+    .mint-cell-swipe-button
+      display flex
+      align-items center
+      justify-content center
+    .opa
+      display inline-block
+      font-size 0
+      margin-top -.1rem
+      .reduce
+          width .4rem
+          height .4rem
+          background none
+          border 1px solid #cac5c5
+          text-align center
+          vertical-align middle
+        .num
+          width 1rem
+          height .4rem
+          text-align center
+          border-top 1px solid #cac5c5
+          border-bottom 1px solid #cac5c5
+          vertical-align middle
+          font-size .3rem
+        .add
+          width .4rem
+          height .4rem
+          background none
+          border 1px solid #cac5c5
+          text-align center
+          vertical-align middle
+  .top
+    span
+      font-size .3rem
+      &.fr
+        margin-right .1rem
+    .logo
+      width .8rem
+      height .2rem
+  .main
+    flex 1
+    img
+      width 1.2rem
+      height 1.2rem
+      float left
+      margin-right .2rem
+    h4
+      font-size .36rem
+    p
+      font-size .28rem
+      margin-top .1rem
+      margin-bottom .2rem
+    .fr
+      color #666
+      margin-right .1rem
+  .cartfoot
+    position fixed 
+    width 100%
+    height .8rem
+    background white
+    bottom 1.1rem
+    span 
+      font-size .3rem
+    .mint-checklist-label
+      display inline-block
+    .fr
+      .pri
+        font-size .3rem
+      height 100%
+      display flex
+      align-items center
+      button
+        margin 0 .2rem
+  .mint-popup
+    h4    
+      width: 1.8rem;
+      height: .6rem;
+      background: rgba(0,0,0,0.3);
+      border-radius: .05rem;
+      text-align: center;
+      line-height: .6rem;
+      color white
+// 我的
+.mine
+  .img
+    width 100%
+    height 4rem
+    background gray 
+    display flex
+    align-items center 
+    -webkit-align-items center
+    justify-content center
+    -webkit-justify-content center
+    img
+      width 1.2rem
+      height 1.2rem
+  h4
+    position relative 
+    span 
+      font-size .3rem
+    .iconfont
+      font-size .36rem
+      i
+        font-size .3rem
+        vertical-align middle
+        margin-left .1rem
+  .mint-cell-allow-right
+    margin-left .1rem
+    margin-top .06rem
+  .mint-cell-allow-right::after
+    position static 
+    top auto 
+    right auto 
+    display inline-block
+  .status 
+    .flex_center
+      li
+        width 25%
+        flex-direction column 
+        text-align center
+        p
+          margin-top .1rem
+  >h5
+    position relative
+    font-size .3rem
+.confirm
+  .address
+    a
+      display block
+  .foot
+    position fixed
+    bottom 0
+    width 100%
+    justify-content space-between
+    span
+      font-size .3rem
+.address
+  .det
+    position relative
+    p
+      margin-top .1rem
+    .fr
+      margin-right .8rem
+  .addresslist
+    li
+      >div
+        margin-top .1rem
+    p
+      margin-top .2rem
+    label
+      padding 0
+      margin-top .1rem
+      .mint-checkbox-core
+        width 16px
+        height 16px
+    .opt
+      margin-top .1rem
+      .iconfont 
+        font-size .4rem
+        margin 0 .1rem
+      span 
+        font-size .28rem
+        vertical-align middle
+  .btn
+    width 1.6rem 
+  .addressEdit
+    position fixed 
+    bottom 0
+    width 100%
+    min-height 4rem
+    select 
+      font-size .3rem
+      height .6rem
+      padding .1rem .2rem
+      display block 
+      margin-top .32rem
+    p  
+      font-size .3rem
+      height .6rem
+      padding .1rem .2rem
+      display block 
+      line-height .5rem
+      margin-top .2rem
+    .group
+      label 
+        font-size .3rem
+        margin-right .1rem
+      input
+        font-size .3rem
+    .mint-cell-wrapper
+      background-image none
+    .mint-cell-title
+      max-width 96px
+.orderlist
+  height 100%
+  overflow scroll
+  .tabs
+    position fixed
+    top 40px
+    width 100%
+    z-index 999
+    .flex_center
+      flex-direction row
+      li
+        width 20%
+        text-align center
+        &.on
+          color red
+  .main
+    overflow scroll
+    padding-top .7rem
+    height 100%
+    box-sizing border-box
+    &::-webkit-scrollbar 
+      display: none;
+  .addresslist
+    li
+      overflow hidden
+.orderDetails
+  .top
+    span 
+      margin-right .1rem
+      font-size .8rem
+    h4
+      margin-top .1rem
+    p
+      margin-top .1rem
+  .bot
+    p
+      margin-top .1rem
+      
+    

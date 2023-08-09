@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/shop.css" />
+		<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/base.js"></script>
+		<script src="js/products.js"></script>
+		<script src="js/shopcar1.js"></script>
+		<script src="js/shopcar.js"></script>
+		<script src="js/ShopCars.js"></script>
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="top">
+				<div class="mg">
+					<div class="fl">
+						<span>网站导航</span>
+						<span>位置:</span><span>广州</span>
+					</div>
+					<div class="right fr">
+						<span>hi,欢迎来到金利来官方旗舰店</span>
+						<a href="login.html"><span>请登录<span>|</span></span></a>
+						<a href="regit.html"><span>免费注册<span>|</span></span></a>
+						<a href="myorder.html"><span>我的订单<span>|</span></span></a>
+						<a href="member_center.html"><span>会员中心<span>|</span></span></a>
+						<a href="###"><span>收藏本站</span></a>
+					</div>
+				</div>
+			</div>
+			<div class="mg">
+				<div class="logo">
+					<a href="index.html"><img src="images/common/logo.png" alt="logo" class="fl" /></a>
+				</div>
+				<div class="search fl">
+					<input type="text" name="search" id="search" value="" class="text" /><input type="button" value="探索" class="button" /><br />
+					<p>热点探索： 男装 卫衣 外套 西裤</p>
+				</div>
+				<a href="javascript:;" class="shopcar">
+					<img src="images/common/shop_car.png" alt="shop_car" /><span>我的购物车</span><span>&or;</span>
+				</a>
+			</div>
+			<div class="bottom ov nav">
+				<div class="mg">
+					<ul>
+						<li><a href="javascript:;" class="one">全部商品分类</a>
+							<dl>
+								<dd>
+									<div>
+										<img src="images/common/navimg1.png" /><span>男装</span><br />
+										<a href="product.html">衬衫</a>
+										<a href="product.html">羽绒服</a>
+										<a href="product.html">毛衫</a>
+									</div>
+								</dd>
+								<dd>
+									<div>
+										<img src="images/common/navimg2.png" /><span>居家</span><br />
+										<a href="product.html">家具服</a>
+										<a href="product.html">短裤</a>
+										<a href="product.html">四角裤</a>
+									</div>
+								</dd>
+								<dd>
+									<div>
+										<img src="images/common/navimg3.png" /><span>卫衣</span><br />
+										<a href="product.html">连帽</a>
+										<a href="product.html">不连帽</a>
+									</div>
+								</dd>
+								<dd>
+									<div>
+										<img src="images/common/navimg4.png" /><span>红豆杉</span><br />
+										<a href="product.html">红豆杉</a>
+										<a href="product.html">圆领衫</a>
+									</div>
+								</dd>
+								<dd>
+									<div>
+										<img src="images/common/navimg5.png" /><span>西服</span><br />
+										<a href="product.html">外套</a>
+										<a href="product.html">西裤</a>
+									</div>
+								</dd>
+								<dd>
+									<div class="last">
+										<img src="images/common/navimg6.png" /><span>配饰</span><br />
+										<a href="product.html">领带</a>
+										<a href="product.html">钱包</a>
+										<a href="product.html">皮带</a>
+									</div>
+								</dd>
+							</dl>
+						</li>
+						<li><a href="index.html" class="on">首页</a></li>
+						<li><a href="product.html">男装</a></li>
+						<li><a href="product.html">居家</a></li>
+						<li><a href="product.html">卫衣</a></li>
+						<li><a href="product.html">红豆杉</a></li>
+						<li><a href="product.html">西服</a></li>
+						<li><a href="product.html">配饰</a></li>
+						<li><a href="product.html">季节款式</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="content shop_car">
+			<div class="mg">
+				<div class="shop_title ov">
+					<h3 class="fl">购物车</h3>
+					<img src="images/shop/img1.png" alt="img1" class="fr" />
+				</div>
+				<div class="main">
+					<div class="row ov">
+						<div class="fl one1">
+							<input type="checkbox" class="allcheck"/>&nbsp;<span>全选</span>
+						</div>
+						<div class="fl one2">
+							<span>商品</span>
+						</div>
+						<div class="fl one3">
+							<span>单价（元）</span>
+						</div>
+						<div class="fl one4">
+							<span>数量</span>
+						</div>
+						<div class="fl one5">
+							<span>小计（元）</span>
+						</div>
+						<div class="fl one6">
+							<span>操作</span>
+						</div>
+					</div>
+					<ul class="ov row">
+						<!--<li>
+							<div class="ov" id="1">
+								<div class="one1 fl on">
+									<input type="checkbox" class="checkbtn" checked="checked"/>
+								</div>
+								<div class="one2 fl">
+									<a href="product_detail.html"><img src="images/shop/img1.jpg" alt="img1" class="fl" /></a>
+									<div class="fl">
+										<p><a href="product_detail.html">商务正装</a></p>
+										<p><a href="product_detail.html">图案：格子</a></p>
+									</div>
+									<div class="fl">
+										<p><a href="product_detail.html">颜色：白</a></p>
+										<p><a href="product_detail.html">尺码：175/92A</a></p>
+									</div>
+								</div>
+								<div class="one3 fl on">
+									<span>50.00</span>
+								</div>
+								<div class="one4 fl on">
+									<a href="javascript:;" class="reduce">-</a><input type="text" class="num" value="1" id="num"/><a href="javascript:;" class="add">+</a>
+								</div>
+								<div class="one5 fl on">
+									<span>50.00</span>
+								</div>
+								<div class="one6 fl on">
+									<p>
+										<a href="javascript:;" class="del">删除</a>
+									</p>
+									<p>
+										<a href="###">移到我的关注</a>
+									</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="ov" id="2">
+								<div class="one1 fl on">
+									<input type="checkbox" class="checkbtn" checked="checked"/>
+								</div>
+								<div class="one2 fl">
+									<a href="product_detail.html"><img src="images/shop/img1.jpg" alt="img1" class="fl" /></a>
+									<div class="fl">
+										<p><a href="product_detail.html">商务正装</a></p>
+										<p><a href="product_detail.html">图案：格子</a></p>
+									</div>
+									<div class="fl">
+										<p><a href="product_detail.html">颜色：白</a></p>
+										<p><a href="product_detail.html">尺码：175/92A</a></p>
+									</div>
+								</div>
+								<div class="one3 fl on">
+									<span>50.00</span>
+								</div>
+								<div class="one4 fl on">
+									<a href="javascript:;" class="reduce">-</a><input type="text" class="num" value="1" id="num"/><a href="javascript:;" class="add">+</a>
+								</div>
+								<div class="one5 fl on">
+									<span>50.00</span>
+								</div>
+								<div class="one6 fl on">
+									<p>
+										<a href="javascript:;" class="del">删除</a>
+									</p>
+									<p>
+										<a href="###">移到我的关注</a>
+									</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="ov" id="3">
+								<div class="one1 fl on">
+									<input type="checkbox" class="checkbtn" checked="checked"/>
+								</div>
+								<div class="one2 fl">
+									<a href="product_detail.html"><img src="images/shop/img1.jpg" alt="img1" class="fl" /></a>
+									<div class="fl">
+										<p><a href="product_detail.html">商务正装</a></p>
+										<p><a href="product_detail.html">图案：格子</a></p>
+									</div>
+									<div class="fl">
+										<p><a href="product_detail.html">颜色：白</a></p>
+										<p><a href="product_detail.html">尺码：175/92A</a></p>
+									</div>
+								</div>
+								<div class="one3 fl on">
+									<span>50.00</span>
+								</div>
+								<div class="one4 fl on">
+									<a href="javascript:;" class="reduce">-</a><input type="text" class="num" value="1" id="num"/><a href="javascript:;" class="add">+</a>
+								</div>
+								<div class="one5 fl on">
+									<span>50.00</span>
+								</div>
+								<div class="one6 fl on">
+									<p>
+										<a href="javascript:;" class="del">删除</a>
+									</p>
+									<p>
+										<a href="###">移到我的关注</a>
+									</p>
+								</div>
+							</div>
+						</li>-->
+					</ul>
+					<div class="bottom ov">
+						<div class="fl">
+							<input  type="checkbox" class="allcheck"/>
+							<label>&nbsp;全选</label>
+						</div>
+						<span class="fl"><a href="javascript:;" class="delselect">删除选中的商品</a></span>
+						<span class="fl"><a href="###">移到我的关注</a></span>
+						<a href="confirm_order.html" class="fr">去结算</a>
+						<span class="fr"><span>已选中<b>0</b>件商品</span><span class="totalprice">0.00</span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="bottom">
+				<p>苏ICP备14039882号-4|&nbsp;苏B1-20150021|&nbsp;无锡Bombin网络科技有限公司</p>
+			</div>
+		</div>
+
+	</body>
+
+</html>

@@ -1,0 +1,80 @@
+*{margin: 0;padding: 0;font-size: 14px;font-family: "微软雅黑";color: #333333;}
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+a{cursor: pointer;text-decoration: none;outline: none;border: 0;}
+a{blr:expression(this.onFocus=this.blur());outline:none;}
+a:active{outline: none;}
+a:focus {star:expression(this.onFocus=this.blur());outline: none;}
+input{outline: none;}
+input[type="text"]{padding-left: 8px;}
+input[type="password"]{padding-left: 8px;}
+input[type="submit"]{cursor: pointer;}
+label{cursor: pointer;}
+textarea{outline: none;padding-left: 8px;}
+select{cursor: pointer;}
+button,select,option{outline: none;}
+img{border: none;vertical-align: middle;}
+ul,ol,dl{list-style: none;}
+p{line-height: 24px;}
+.mg{margin: 0 auto;width: 1200px;}
+.ng{margin: 0 auto;width: 1000px;}
+.fl{float: left;}
+.fr{float: right;}
+.ov{clear: both;overflow: hidden;}
+input[type="checkbox"]{cursor: pointer;}
+input[type="radio"]{cursor: pointer;}
+
+/*头部*/
+.header .top{height: 34px;background: #eeeeee;width: 100%;}
+.header .top .mg p{line-height: 34px;float: left;}
+.header .top .mg p a:first-child{margin-left: 20px;}
+.header .top .mg p a:hover{color: red;}
+.header .top .mg ul{float: right;}
+.header .top .mg ul li{float: left;margin-left: 15px;border-left: 1px solid #333333;padding-left: 15px;height: 14px;margin-top: 9px;line-height: 14px;}
+.header .top .mg ul li a:hover{color: red;}
+.header .top .mg ul li:first-child{border: none;}
+.header .mg{height: 160px;}
+.header .mg .logo{margin: 23px 100px 0 60px;float: left;}
+.header .mg .search{width: 510px;float: left;margin-top: 52px;}
+.header .mg .search input{border: 3px solid #2d2d2d;height: 52px;width: 412px;vertical-align: middle;margin-bottom: 10px;}
+.header .mg .search input+a{width: 73px;height: 58px;display: inline-block;background: #2D2D2D;vertical-align: middle;color: white;font-size: 18px;text-align: center;line-height: 58px;margin-bottom: 10px;}
+.header .mg .search p{color: #585858;}
+.header .mg .search p a{color: #585858;margin-right: 10px;}
+.header .mg .search p a:hover{color: red;}
+.header .mg .shop{float: right;margin-top: 38px;width: 315px;}
+.header .mg .shop a img{float: left;margin-right: 9px;}
+.header .mg .shop p{font-size: 12px;line-height: 27px;}
+.header .mg .shop p span{color: red;font-size: 12px;}
+.header .mg .shop .right a{color: white;font-size: 12px;width: 84px;height: 22px;border-radius: 15px;-webkit-border-radius: 15px;-moz-border-radius: 15px;display: inline-block;float: right;background: red;text-align: center;line-height: 22px;margin-top: -23px;}
+.header .mg .shop .right{border-left: 1px dotted #333333;height: 54px;float: left;width: 218px;padding-left: 12px;margin-top: 10px;}
+.header .nav{width: 100%;height: 50px;background: #1b1b1b;}
+.header .nav .lei{width: 193px;background: #2d2d2d;float: left;font-size: 18px;color: white;box-sizing: border-box;line-height: 50px;position: relative;}
+.header .nav .lei p{padding-left: 20px;height: 50px;line-height: 50px;color: white;font-size: 18px; cursor: pointer;}
+.header .nav .lei ul{padding: 12px 0;background: rgba(51,51,51,0.7);display: none;position: absolute;z-index: 1000;width: 100%;}
+.header .nav .lei ul li:hover a{color: red;}
+.header .nav .lei ul li:hover span{color: red;}
+.header .nav .lei ul li a{height: 57px;padding-left: 20px;display: block;width: 100%;box-sizing: border-box;color: white;}
+.header .nav .lei ul li a span{float: right;color: white;margin-right: 23px;}
+.header .nav .navbar{float: left;}
+.header .nav .navbar li{float: left;width: 130px;height: 50px;}
+.header .nav .navbar li a{font-size: 18px;color: white;line-height: 50px;display: block;padding-left: 20px;box-sizing: border-box;}
+.header .nav .navbar li a:hover{ color: red;}
+.header .nav .navbar .active a{ color: red;}
+/*底部*/
+.footer { overflow: hidden; background-color: #eeeeee; }
+.footer .mg { overflow: hidden;}
+.footer .mg dl{ display: block; float: left; width: 300px; height: 320px;}
+.footer .mg dl dt{ overflow: hidden; border-right:1px solid #dcdcdc ; margin:22px 0 30px; }
+.footer .mg dl dt img{ display: block; float: left; margin: 7px 20px 1px ; }
+.footer .mg dl dt h3 { font-family: "微软雅黑"; font-size: 24px; font-weight: 100; line-height: 38px;}
+.footer .mg dl dt p { font-family: "微软雅黑"; font-size: 16px; line-height: 36px;}
+.footer .mg dl dd { padding-left: 110px;}
+.footer .mg dl dd a{ font-family: "微软雅黑"; font-size: 14px; line-height: 30px;}
+
+
+
+
+
+
+
+
+

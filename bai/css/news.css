@@ -1,0 +1,339 @@
+.header .tfail{
+	border-bottom:2px solid rgb(207, 11, 15);
+}
+.header .tfail .sibarleft{
+	text-align: center;
+} 
+.header .tfail .sibarleft strong{
+	font-size: 18px;
+	font-weight: normal;
+}
+.title_com{
+	height: 60px;
+	line-height: 60px;
+}
+.title_com h3{
+	margin: 0;
+	line-height: 60px;
+	font-size: 14px;
+	font-family: '宋体';
+	color: #666666;
+}
+.title_com h3 a{
+	font-family: '宋体';
+	font-size: 14px;
+	color: #666666;
+}
+.userlert{
+	padding-left: 0;
+}
+.userlert .newleft{
+	background: white;
+	padding: 0 20px;
+}
+.userlert .newleft ul li{
+	border-bottom: 1px dotted #cccccc;
+	padding-bottom: 10px;
+}
+.userlert .newleft ul li *{
+	color: #333333;
+}
+.userlert .newleft ul li h3{
+	color: #333333;
+	font-size: 22px;
+	font-weight: normal;
+	padding: 0;
+}
+.userlert .newleft ul li h3 *{
+	color: #333333;
+}
+.userlert .newleft ul li h3 span{
+	font-size: 13px;
+	color: #333333;
+	margin-top: 9px;
+	padding: 0;
+}
+.userlert .newleft ul li p.text{
+	color: #666666;
+	font-size: 13px;
+	margin-top: 10px;
+}
+.userlert .newleft ul li p.text a{
+	color: #666666;
+}
+.userlert .newleft ul li p.shar{
+	text-align: right;
+	padding-right: 20px;
+	clear: both;
+}
+.userlert .newleft ul li p.shar *{
+	font-size: 13px;
+}
+.userlert .newleft ul li p.shar i{
+	margin-left: 15px;
+}
+.userlert .newleft ul li p.shar span{
+	margin-left: 30px;
+}
+.userlert .newleft ul li .img img{
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+.userright{
+	background: white;
+	padding-bottom: 100px;
+	margin-bottom: 20px;
+}
+.userright .newright{
+	margin: 0 15px;
+	border: 1px solid #cccccc;
+	position: relative;
+	margin-top: 20px;
+}
+.userright .newright>img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.userright .newright .top{
+	width: 100%;
+}
+.userright .newright .top ul{
+	clear: both;
+	overflow: hidden;
+	padding: 50px 0;
+	border-bottom: 1px solid #cccccc;
+}
+.userright .newright .top ul li{text-align: center;}
+.userright .newright .top ul li img{max-width: 100%;}
+.userright .newright .top>a{
+	width: 80%;
+	margin: 20px auto;
+	font-size: 20px;
+	line-height: 40px;
+	display: block;
+	text-align: center;
+	clear: both;
+	color: #333333;
+	background: #dddddd;
+	border-bottom: 2px solid #898989;
+	border-right: 2px solid #898989;
+	font-weight: bold;
+}
+.userright .newright .hot h3{
+	font-size: 24px;
+	font-weight: 700;
+	color: #333333;
+	margin: 0 20px;
+	border-bottom: 1px dotted #cccccc;
+	padding-bottom: 10px;
+}
+.userright .newright .hot h3 span{
+	font-size: 13px;
+	color: #333333;
+	float: right;
+	margin-top: 9px;
+}
+.userright .newright .hot .list1{
+	padding: 10px 0;
+	clear: both;
+	overflow: hidden;
+}
+.userright .newright .hot .list1 img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.userright .newright .hot .list1 .text{
+	padding-left: 0;
+}
+.userright .newright .hot .list1 .text h4{
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 14px;
+	margin: 0;
+}
+.userright .newright .hot .list1 .text h4 a{
+	color: #333333;
+}
+.userright .newright .hot .list1 .text p{
+	display: -webkit-box;
+        /*--课伸缩盒子/弹性盒子--*/
+        -webkit-box-orient: vertical;
+        /*--从上向下垂直排列子元素--*/
+        -webkit-line-clamp: 2;
+        /*--限制在一个块元素显示的文本的行数(超出3行显示省略号)--*/
+        overflow: hidden;
+        width: 100%;
+        word-break: break-all;
+}
+.userright .newright .hot .list1 .text p a{color: #333333;}
+.userright .newright .hot .list1{
+	display: none;
+}
+.userright .newright .hot>ul>li:hover .list1{
+	display: block;
+}
+.userright .newright .hot>ul>li:hover .list2{
+	display: none;
+}
+.userright .newright .hot>ul>li.on .list1{
+	display: block;
+}
+.userright .newright .hot>ul>li.on .list2{
+	display: none;
+}
+.userright .newright .hot .list2{clear: both;overflow: hidden;}
+.userright .newright .hot li .list2{
+	margin-bottom: 5px;
+}
+.userright .newright .hot li .list2 i {
+	vertical-align: middle;
+	padding-right: 0;
+}
+.userright .newright .hot li .list2 i span{
+	width: 3px;
+	height: 3px;
+	display: inline-block;
+	background: #379be9;
+	text-align: center;
+	vertical-align: middle;
+}
+.userright .newright .hot li .list2 .txt{
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	font-size: 14px;
+	font-weight: 700;
+	color: #333333;
+	vertical-align: middle;
+}
+.userright .newright .hot .num{text-align: right;margin-top: 2px;}
+.recommend h3{
+	font-size: 24px;
+	font-weight: 700;
+	color: #333333;
+	margin: 0 20px;
+	border-bottom: 1px dotted #cccccc;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.recommend h3 span{
+	font-size: 13px;
+	color: #333333;
+	float: right;
+	margin-top: 9px;
+}
+.recommend ul{
+	margin-top: 15px;
+}
+.recommend ul li{
+	margin: 0 20px;
+	padding-bottom: 10px;
+	border: 1px solid #cccccc;
+	margin-bottom: 20px;
+}
+.recommend ul li img{max-width: 100%;
+display: block;}
+.recommend ul li p{
+	margin: 0 10px;
+}
+.recommend ul li p a{
+	font-size: 14px;
+	color: #333333;
+	font-weight: 600;
+	line-height: 30px;
+}
+.recommend ul li p.pri{
+	font-size: 13px;
+	color:#333333;
+	line-height: 24px;
+}
+.recommend ul li p.pri a{
+	width: 59px;
+	height:24px;
+	text-align: center;
+	line-height: 24px;
+	background: red;
+	color: white;
+	float: right; 
+}
+
+
+.userlert {margin-bottom: 20px;}
+.newsleft {padding: 0 20px;background: white;padding-bottom: 10px;}
+.newsleft .title {text-align: center;}
+.newsleft .title h1 {font-size: 28px; font-weight: 400; text-align: center;margin: 0;padding-top: 30px;}
+.newsleft .title p {font-size: 13px; display: inline-block; width: 60%; text-align: justify;}
+.newsleft .title p span {display: inline-block; color: #333;}
+.newsleft .title p:after {display: inline-block; width: 100%; content: '';}
+.newsleft .title .auther {line-height: 45px; height: 45px; margin: 15px 0; border-top: 1px dashed #ccc; border-bottom: 1px dashed #ccc;}
+.newsleft .text {margin: 0 20px;}
+.newsleft .text p {font-size: 16px; line-height: 24px; text-indent: 2em; color: #666;}
+.newsleft .text img {display: block; margin: 30px auto;}
+.newsleft .text h4 {font-size: 16px; font-weight: 700; color: #666;}
+
+.newsleft .opa {text-align: center;margin-top: 30px;
+	border-bottom: 2px dotted #cccccc;
+	padding-bottom: 10px;
+}
+.newsleft .opa p {display: inline-block; margin: 0 auto;}
+.newsleft .opa a {font-size: 16px; color: #333;}
+.newsleft .opa a:first-child {margin-right: 20px;}
+.newsleft .page{
+	clear: both;
+	overflow: hidden;
+}
+.newsleft .page .prev{
+	float: left;
+	font-size: 14px;
+	font-weight: 700;
+	color: #333333;
+	margin-top: 20px;
+}
+.newsleft .page .next{
+	float: right;
+	font-size: 14px;
+	font-weight: 700;
+	color: #333333;
+	margin-top: 20px;
+}
+.taskpage{
+	background: #fff;
+	text-align: center;
+	padding: 40px 0;
+}
+.taskpage ul{
+	display: inline-block;
+}
+.taskpage ul li{
+	float: left;
+	margin-right: 15px;
+}
+.taskpage ul li:hover a{
+	border:1px solid #ff0000;
+}
+.taskpage ul li a{
+	font-family: '宋体';
+	color: #000;
+	display: block;
+	padding: 4px 9px;
+	font-size: 12px;
+	border:1px solid #797979;
+}
+.taskpage span{
+	position: relative;
+	display: inline-block;
+	font-size: 12px;
+	top: -10px;
+	font-family: '宋体';
+	color: #000;
+}
+.taskpage span b{
+	color: #ff0000;
+}
+

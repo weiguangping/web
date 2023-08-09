@@ -1,0 +1,23 @@
+.mobilecart4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  .title{
+    font-size: 1.714286rem;
+    margin-bottom: 1.571429rem;
+    margin-top: 0;
+  }
+  p{
+    width: 22.142857rem;
+    margin-top: 1.571429rem;
+    margin-bottom: 2.142857rem;
+  } 
+  u{
+    color: #FF8800;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,97 @@
+
+
+.container .mg .form{
+	width: 870px;
+	border: 1px solid #d8d8d8;
+	margin: 74px auto 80px;
+	padding-left: 86px;
+	
+	-webkit-box-shadow: 2px 3px 3px #d2d2d2;  
+  	-moz-box-shadow: 2px 3px 3px #d2d2d2;  
+  	box-shadow: 2px 3px 3px #d2d2d2;         /* 阴影*/
+}
+.container .mg .form h3{
+	font-weight: 100;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #040404;
+	line-height: 52px;
+}
+.container .mg .form p{
+	display: block;
+	height: 50px;
+	margin-bottom: 20px;
+}
+.container .mg .form p input{
+	display: block;
+	float: left;
+	height: 46px;
+	width: 310px;
+}
+.container .mg .form p span{
+	display: block;
+	float: left;
+	line-height: 50px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #151515;
+	margin-left: 20px;
+}
+
+.container .mg .form p select{
+	display: block;
+	float: left;
+	width: 96px;
+	height: 32px;
+	text-align: center;
+	padding-left: 30px;
+	margin-right: 10px;
+}
+.container .mg .form .yzm input{
+	width: 110px;
+}
+.container .mg .form .yzm img{
+	display: block;
+	float: left;
+	margin-top: 10px;
+}
+.container .mg .form .yzm span{
+	line-height: 30px;
+	margin-top: 20px;
+}
+.container .mg .form label input{
+	vertical-align: middle;
+	background-color: #FFFFFF;
+	-webkit-appearance: none;
+	appearance: none;
+	margin-right: 6px;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #6b6b6b;
+	cursor: pointer;
+  	position: relative;
+  	margin-top: 19px;
+}
+.container .mg .form label input:checked:after{
+	display: block;
+	content: url(../img/base/gou.png);
+  	position: absolute;
+  	top: -4px;
+  	left: 1px;
+  	z-index: 2;
+}
+.container .mg .form label span{
+	margin-left: 5px;
+}
+.container .mg .form a{
+	display: block;
+	width: 308px;
+	height: 50px;
+	background-color:#d4080f ;
+	color: #FFFFFF;
+	line-height: 50px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	margin-bottom: 26px;
+}

@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>购物车</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/head_foot.css">
+    <link rel="stylesheet" type="text/css" href="css/original_mall.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="thead">
+            <div class="container">
+                <div class="row">
+                    <div class="left">
+                        <span>百单网-中国创意服务在线交易平台</span>
+                    </div>
+                    <div class="right">
+                        <div class="loginin">
+                            欢饮您，
+                            <span class="subnav_span navdown">
+                                <a href="javascript:void(0)">
+                                    你的名字<i class="arrow"></i>
+                                </a>
+                            </span>
+                            <div class="subnav_option logintop">
+                                <ul>
+                                    <li class="bd_r bd_b">
+                                        <a href="user_center.html">
+                                            <i class="icouser"></i>
+                                            <span>用户中心</span>
+                                        </a>
+                                    </li>
+                                    <li class="bd_r bd_b">
+                                        <a href="user_center.html">
+                                            <i class="icouser"></i>
+                                            <span>我的威客</span>
+                                        </a>
+                                    </li>
+                                    <li class="bd_b">
+                                        <a href="user.html">
+                                            <i class="icouser"></i>
+                                            <span>账号管理</span>
+                                        </a>
+                                    </li>
+                                    <li class="bd_r bd_b">
+                                        <a href="">
+                                            <i class="icouser"></i>
+                                            <span>财务管理</span>
+                                        </a>
+                                    </li>
+                                    <li class="bd_r bd_b">
+                                        <a href="">
+                                            <i class="icouser"></i>
+                                            <span>安全退出</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <span class="loginzt">
+                            <a href="login.html" class="login">登陆</a> /
+                            <a href="register" class="reg">免费注册</a>
+                        </span>
+                        <a href="" class="help">帮助中心</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tbody">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 logo visible-lg visible-md">
+                        <a href="index.html">
+                            <img src="images/logo.jpg">
+                        </a>
+                    </div>
+                    <div class="col-sm-11 col-sm-offset-1 col-md-7 search col-md-offset-1">
+                        <form>
+                            <div class="input-group">
+                                <span class="input-group-addon glyphicon glyphicon-search"></span>
+                                <input type="text" class="form-control">
+                                <div class="input-group-btn ss">
+                                    <button type="button" class="btn btn-default">搜索</button>
+                                </div>
+                                <b>或</b>
+                                <div class="input-group-btn ss ss2">
+                                    <button type="button" class="btn btn-default">免费发布任务</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tfail">
+            <div class="container">
+                <div class="row">
+                    <div class="sibarleft col-md-2 visible-lg visible-md">
+                        <h2 class="clear">
+                            <a>
+                                <strong>全部分类</strong>
+                            </a>
+                        </h2>
+                        <div class="sibar_main" style="display: none;">
+                            <div class="list">
+                                <ul>
+                                    <li>
+                                        <div class="title">
+                                            <span>企业服务</span>
+                                        </div>
+                                        <div class="tlist clear">
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="title">
+                                            <span>企业服务</span>
+                                        </div>
+                                        <div class="tlist clear">
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="title">
+                                            <span>企业服务</span>
+                                        </div>
+                                        <div class="tlist clear">
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="title">
+                                            <span>企业服务</span>
+                                        </div>
+                                        <div class="tlist clear">
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="title">
+                                            <span>企业服务</span>
+                                        </div>
+                                        <div class="tlist clear">
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="title">
+                                            <span>企业服务</span>
+                                        </div>
+                                        <div class="tlist clear">
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                            <span><a href="">商标注册</a></span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sibarright col-md-10">
+                        <ul class="clear">
+                            <li><a href="mission_hall.html">任务大厅</a></li>
+                            <li><a href="original_mall.html">原创商城</a></li>
+                            <li><a href="">百单大讲堂</a></li>
+                            <li class="on"><a href="news.html">资讯中心</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content bg">
+        <div class="container ">
+            <div class="row bg user">
+                <div class="title_com">
+                    <h3>当前位置：
+                        <a href="index.html">首页</a> > 
+                        <a href="original_mall.html">原创商城</a> >
+                        <a href="shopcart.html">购物车</a>
+                    </h3>
+                </div>
+                <div class="shopbox">
+                    <div class="shop_title">
+                        <ul class="row state1">
+                            <li  class="on">
+                                <span>1</span>
+                                <b>我的购物车</b>
+                            </li>
+                            <li>
+                                <span>2</span>
+                                <b>填写订单信息</b>
+                            </li>
+                            <li>
+                                <span>3</span>
+                                <b>成功提交订单</b>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="shop_list">
+                        <div class="thead">
+                            <div class="row">
+                                <p class="col-xs-4">作品名称</p>
+                                <p class="col-xs-1">作品类型</p>
+                                <p class="col-xs-2">作品价格</p>
+                                <p class="col-xs-2">数量</p>
+                                <p class="col-xs-2">小计</p>
+                                <p class="col-xs-1">操作</p>
+                            </div>
+                        </div>
+                        <div class="tbody">
+                            <ul>
+                                <li>
+                                    <div class="col-xs-4 shop_img">
+                                        <a href="orginal_product_detail.html">
+                                            <img src="images/u228.png">
+                                        </a>
+                                        <span><a href="orginal_product_detail.html">Glimm广告传媒有限公司/作品标题</a></span>
+                                    </div>
+                                    <div class="col-xs-1 shop_type">
+                                        企业商城
+                                    </div>
+                                    <div class="col-xs-2 shop_price">
+                                        ￥<span>1000.47</span>元
+                                    </div>
+                                    <div class="col-xs-2 shop_count">
+                                        <input type="button" value="-" class="reduce">
+                                        <input type="text" value="1" class="count">
+                                        <input type="button" value="+" class="add">
+                                    </div>
+                                    <div class="col-xs-2 shop_sum">
+                                        ￥<span>1000.00</span>元
+                                    </div>
+                                    <div class="col-xs-1 shop_opea">
+                                        <a href="javascript:void(0)">删除</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-xs-4 shop_img">
+                                        <a href="orginal_product_detail.html">
+                                            <img src="images/u228.png">
+                                        </a>
+                                        <span><a href="orginal_product_detail.html">Glimm广告传媒有限公司/作品标题</a></span>
+                                    </div>
+                                    <div class="col-xs-1 shop_type">
+                                        企业商城
+                                    </div>
+                                    <div class="col-xs-2 shop_price">
+                                        ￥<span>1000.42</span>元
+                                    </div>
+                                    <div class="col-xs-2 shop_count">
+                                        <input type="button" value="-" class="reduce">
+                                        <input type="text" value="1" class="count">
+                                        <input type="button" value="+" class="add">
+                                    </div>
+                                    <div class="col-xs-2 shop_sum">
+                                        ￥<span>1000.00</span>元
+                                    </div>
+                                    <div class="col-xs-1 shop_opea">
+                                        <a href="javascript:void(0)">删除</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tfail">
+                            <div class="row">
+                                <div class="col-xs-2 go_shop">
+                                    <a href="original_mall.html">继续购物</a>
+                                </div>
+                                <div class="col-xs-6 col-xs-offset-2 go_sum">
+                                    总价：<span>￥28000.00元</span>
+                                </div>
+                                <div class="col-xs-2 go_pay">
+                                    <a href="order_message.html">去结算</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lianjie">
+            <div class="container">
+                <div class="row">
+                    <div class="tabhead">
+                        <ul class="tab clear" id="myTab">
+                            <li class="active">友情链接</li>
+                            <li>合作伙伴</li>
+                            <a href="">申请链接合作</a>
+                        </ul>
+                        <div class="tabbox" id="myTabContent">
+                            <div class="tablist">
+                                <ul class="clear">
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                </ul>
+                            </div>
+                            <div class="tablist" style='display: none;'>
+                                <ul class="clear">
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="thead">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 item list">
+                        <h4>新手指南</h4>
+                        <a href="">会员注册</a>
+                        <a href="">会员注册</a>
+                        <a href="">会员注册</a>
+                        <a href="">会员注册</a>
+                        <a href="">会员注册</a>
+                    </div>
+                    <div class="col-sm-4 item list">
+                        <h4>关于我们</h4>
+                        <a href="">会员注册</a>
+                        <a href="">会员注册</a>
+                        <a href="">会员注册</a>
+                        <a href="">会员注册</a>
+                        <a href="">会员注册</a>
+                        <a href="">会员注册</a>
+                    </div>
+                    <div class="col-sm-4 item">
+                        <img src="images/wwc.jpg">
+                        <div class="share visible-lg">
+                            <a href="">联系客服</a>
+                            <span>分享</span>
+                            <p>
+                                <a href="" class="icowx">
+                                </a>
+                                <a href="" class="icoqq">
+                                </a>
+                                <a href="" class="icosina">
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tfail">
+            <p>百单网</p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        // 输入框
+        $('.shop_list .count').change(function(){
+            if(/^\d+$/.test(this.value)&&this.value>=1){
+                
+            }  else {
+                this.value=1;
+            }
+            calcTotal();
+        });
+        // 减
+        $('.shop_list .reduce').click(function(){
+            var val = parseInt($(this).next().val());
+            val  = (val <= 1) ? 1 : --val;
+            $(this).next().val(val);
+            calcTotal();
+        });
+        // 加
+        $('.shop_list .add').click(function(){
+            var val = parseInt($(this).prev().val());
+            val  = (val >= 1) ? ++val : 1;
+            $(this).prev().val(val);
+            calcTotal();
+        });
+        // 操作 删除
+        $('.shop_opea a').click(function(e){
+            if(confirm('是否删除该商品')){
+                $(this).parents('li').remove();
+            }
+            calcTotal();
+        });
+        // 总计
+        var calcTotal = function () {
+            var allsum = 0;
+            for(var i=0,length=$('.shop_list .tbody ul li').length;i<length;i++){
+                var price = $('.shop_price span')[i].innerHTML;
+                var count = $('.shop_count .count')[i].value;
+                var sum =  (parseFloat(price) * parseFloat(count));
+                allsum += sum;
+                $('.shop_sum span')[i].innerHTML= sum.toFixed(2);
+                
+            }
+            $('.shop_list .tfail .go_sum span').text('￥'+allsum.toFixed(2)+'元');
+        };
+        calcTotal();
+    </script>
+</body>
+
+</html>

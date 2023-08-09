@@ -1,0 +1,23 @@
+.container .top{width: 1200px;margin: 0 auto;border: 1px solid #a0a0a0;box-sizing: border-box;height: 230px;margin-top: 18px;}
+.container .top img{margin-left: 230px;margin-top: 40px;float: left;}
+.container .top h3{float: left;margin-top: 80px;font-size: 36px;color: #3a3a3a;margin-left: 30px;}
+.container .main{width: 1200px;margin: 0 auto 30px;border: 1px solid #c0bfbf;border-radius: 3px;box-shadow: 0px 0px 3px #c0bfbf ;margin-top: 18px;padding-bottom: 40px;}
+.container .main ul{ overflow:hidden ;margin-bottom: 38px;}
+.container .main ul li{clear: both;overflow: hidden;height: 150px;background: #eeeeee;}
+.container .main ul li>div{float: left;padding-top: 65px;}
+.container .main ul li>div.info{width: 450px;padding: 0;}
+.container .main ul li>div.info img{float: left;margin-left: 63px;margin-right: 14px;margin-top: 22px;}
+.container .main ul li>div.info .text{width: 235px;float: left;}
+.container .main ul li>div.info h3{float: left;font-weight: normal;margin-top: 35px;}
+.container .main ul li>div.info p{float: left;}
+.container .main ul li>div.num p{color: #666666;font-size: 20px;width: 100px;text-align: center;}
+.container .main ul li>div.tolpri p{font-size: 18px;width: 200px;text-align: center;}
+.container .main ul li>div.tolpri p span{font-size: 18px;text-align: center;}
+.container .main ul li>div.emal p{color: #666666;font-size: 20px;width: 230px;text-align: center;}
+.container .main ul li>div.piao p{color: #666666;font-size: 20px;width: 220px;text-align: center;}
+.container .main>p{font-size: 18px;padding-left: 26px;}
+.container .main>p span{font-size: 18px;}
+.container .main>p span a{font-size: 18px;}
+.container .main>p span.red{color: #9b0b0b;}
+.container .main>a{font-size: 16px;width: 116px;height: 32px;color: white;background: red;float: right;text-align: center;line-height: 32px;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;margin-top: -24px;}
+.container .main>a.gray{margin-right: 45px;margin-left: 26px;background: #626262;}

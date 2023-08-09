@@ -1,0 +1,128 @@
+.user{margin-bottom: 80px;}
+.user .left{margin-top: 30px;}
+.user .left .left1 .glyphicon{position: absolute;right: 11px;top: 23px;font-size: 16px;}
+.user .left .left1{background: black;padding:14px 20px 7px 20px;position: relative;}
+.user .left .left1 span{color: white;font-size: 20px}
+.user .left .clearpd .one{font-size: 18px;color: white;background: red;padding: 6px 20px;}
+.user .left .clearpd ul{background: #eeeeee;}
+.user .left .clearpd ul{padding: 10px 20px 20px 20px;margin-bottom: 0;}
+.user .left .clearpd .three{padding:10px 20px 60px 20px;}
+.user .left .clearpd ul li{line-height: 24px;}
+.user .left .clearpd ul li a{color: black;}
+.active{color: red!important;text-decoration: underline!important;}
+.user .right .right_top{border: 1px solid black;padding: 10px 30px;margin-top: 26px;}
+.user .right img{display: inline-block;max-width: 100%;}
+.user .right h4{font-weight: bold;}
+.user .right div span{vertical-align: middle;}
+.user .right .one{margin-top: 20px;padding: 0;}
+.user .right em{font-style: normal;vertical-align: bottom;line-height: 24px;}
+.user .right .right_bottom{border: 1px solid black;margin-top: 40px;}
+.user .right_bottom .title{font-size: 18px;font-weight: bold;padding: 12px 15px 5px 15px;}
+.user .right_bottom .one2{border-bottom: 1px solid black;}
+.user .right_bottom .one3{border-bottom: 1px solid black;padding: 10px 20px;}
+.user .right_bottom .one3 p{margin: 0;}
+.user .right_bottom .one3 .text{margin-top: 10px;}
+.user .right_bottom .one3 input{width: 100px;height: 30px;background: black;color: white;border: none;margin-top: 10px;line-height: 30px;}
+.user .right_bottom .last{padding-bottom: 10px;border: none;}
+.user .right_bottom .last ul li{float: left;margin-right: 4px;}
+.user .right_bottom .last ul li a{padding: 2px 5px;display:block;}
+.user .right_bottom .last ul li .on{background: red;color: white;}
+.user .right_bottom .last .fr{margin-top: 20px;}
+
+/*order*/
+.order .right .main{border: 1px solid black;margin-top: 30px;width: 95%;border-bottom: none;}
+.order .right .main div {padding: 0;}
+.order .right .main div a{font-size: 16px;text-align: center;color:black;display: block;}
+.order .right .main div .ding{display: inline-block;}
+.order .right .main div .fontl{text-align: left;}
+.order .right .main .box{padding: 8px 20px;border-bottom: 1px solid black;}
+.order .right .box span{vertical-align: top;margin-left: 5px;line-height: 24px;}
+.box .name{margin-top: 40px;}
+.order .right img{padding-left: 10px;margin-top: 10px;}
+.box p{margin: 0;}
+.box .yuan{color: red;text-decoration:line-through;}
+.box .zhichi{background: black;color: white;padding: 2px;}
+.box .pay{background: black;color: white;padding: 3px 10px;}
+.order_bottom .price{color: red;font-size: 16px;}
+.order_bottom{margin-top: 20px;}
+.order_bottom a{display: inline-block;width: 70px;height: 25px;background: red;text-align: center;color: white;float: right;margin-left: 20px;margin-top: 6px;line-height: 25px;}
+.order .right .main div .on{color: #ca6b0e;}
+/*oeder_detail*/
+.oeder_detail .right{margin-top: 20px;}
+.oeder_detail .main{width: 95%;float: right;padding: 0;}
+.oeder_detail .main h4{font-weight: normal;border-bottom: 1px solid black;padding-bottom: 10px;margin-bottom: 0;}
+.oeder_detail .main .box {border: 1px solid black;margin-top: 20px;}
+.oeder_detail .main .box .top{padding: 10px 10px;border-bottom: 1px solid black;}
+.oeder_detail .main .box .bottom{padding-bottom: 40px;border: none;}
+.oeder_detail .box .det{padding-left: 14px;}
+.oeder_detail .box .bo{margin-top: 30px;margin-bottom: 10px;}
+.oeder_detail .box .col-sm-4{text-align: center;}
+.oeder_detail .box .shan{padding: 10px;border-bottom: 1px solid black;}
+.oeder_detail .last1{padding: 10px 0;border-bottom: 1px solid black;}
+.oeder_detail .fast{padding-top: 36px;}
+.oeder_detail .last2{padding: 10px 30px 10px 0;}
+.oeder_detail .last2 .pri{color: red;}
+.oeder_detail .box img{padding-left: 10px;}
+/*adress*/
+.adress .right{margin-top: 20px;}
+.adress .main{width: 95%;float: right;padding: 0;}
+.adress .main h4{font-weight: normal;}
+.adress .right .main span{vertical-align: bottom;}
+.adress .right .main .col{color: #d27215;}
+.adress .right .main form{margin-top: 20px;}
+.adress .right .main form input{height: 20px;}
+.adress .right .main form label{font-weight: normal;}
+.adress .right .main form .input-group{margin-bottom: 6px;}
+.adress .right .main form .place{width: 90px;margin-left:16px;}
+.adress .right .main form .place1{width: 145px;margin-left: 20px;color: #afadad;}
+.adress .right .main form .g1{padding-left: 13px;}
+.adress .right .main form .ad{vertical-align: top;}
+.adress .right .main form .check{height: auto;}
+.adress .right .main form .submit{width: 73px;height: 28px;line-height: 28px;background: red;color: white;border: none;margin-left: 139px;}
+.adress .right .main form div span{line-height: 28px;}
+.adress .right .main form .lishi{margin-top: 20px;}
+.adress .right .main form .lishi1{border: 1px solid black;display: inline-block;padding: 10px 10px 20px 10px;}
+.adress .right .main form .lishi1 input{padding-left: 6px;}
+.adress .right .main form .form-control{padding-left: 6px;}
+.adress .right .main form .add{border: 1px solid black;display: inline-block;padding: 10px 10px 20px 10px;position: relative;width: 300px;height: 200px;margin-left: 30px;}
+.adress .right .main form .add span{position: absolute;top: 10px;}
+.adress .right .main form .add img{margin: 0 auto;display: block;margin-top: 31px;}
+
+@media (min-width:768px) and (max-width:991px) {
+	.user .right_bottom .one3 img{margin-top: 20px;}
+	.order .right .main .box{padding: 8px 11px;}
+	.adress .right .main form .add{float: none!important;margin-top: 20px;margin: 20px auto;display: block;width: 100%;}
+	.adress .right .main form .lishi1{float: none!important;margin: 0 auto;display: block}
+}
+@media (max-width:767px){
+	.user .right .one{padding: 0;}
+	.user .right .one3 div{text-align: center;}
+	.user .right_bottom .last .fr{float: none!important;}
+	.user .right_bottom .last .fr ul{display: inline-block;}
+	.user .left{position: absolute;z-index: 400;left: 0;margin-top: 0;}
+	.user .left .on2{padding: 0 30px;}
+	.user .right .right_top{margin-top: 49px;}
+	.user .left .left1{cursor: pointer;}
+	
+	.user .left .clearpd .one{display: none;}
+	.user .left .clearpd{display: none;}
+	.user .left .clearpd ul{display: none;}
+	/*order*/
+	.order .right{margin-top: 49px;}
+	.order .right .main{float: none!important;margin: 0 auto;}
+	.order .left .on2{padding: 0 25px;}
+	.order .right .main div .fontl{text-align: center;}
+	.order .right img{padding-left: 0;}
+	.user{margin-bottom: 40px;}
+	.box .name{margin-top: 16px;}
+	/*order_detail*/
+	.oeder_detail .right{margin-top: 50px;}
+	.oeder_detail .main{float: none;margin: 0 auto;}
+	.oeder_detail .fast{padding-top: 20px;}
+	.oeder_detail .box img{padding-top: 11px;}
+	/*adress*/
+	.adress .right .main form .add{float: none!important;margin-top: 20px;margin: 20px auto;display: block;width: 100%;}
+	.adress .right .main form .lishi1{float: none!important;margin: 0 auto;display: block}
+	.adress .main{margin: 30px auto 0 auto;float: none!important;}
+	.adress .right .main form .place1{margin-top: 4px;}
+}

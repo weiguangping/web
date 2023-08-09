@@ -1,0 +1,41 @@
+<ion-view view-title="登录" class="rl">
+		<ion-header-bar align-title="center" class="bar-clear">
+			<a href="javascript:history.back();" class="button ion-ios-arrow-left button-clear"></a>
+			
+			<h3 class="title">登录</h3>
+			<a href="javascript:;" class="button ion-loop button-clear" on-tap="reload()"></a>
+		</ion-header-bar>
+		<ion-content>
+			<div class="top">
+				<img src="img/login/img1.png" alt="" />
+				<p>卫东珠宝</p>
+				<p>weidong jewelry</p>
+			</div>
+			<form action="#/app/user" class="login">
+				<div class="list list-inset padding">
+				  <label class="item item-input">
+				    <input type="text" placeholder="用户名/手机号码" id="name" required>
+				  </label>
+				  <label class="item item-input">
+				    <input type="password" placeholder="密码" id="password" required>
+				  </label>
+				  <label>
+				  	<input type="checkbox" id="check"/><span>记住密码</span>
+				  </label>
+				   <label>
+				  	<span>忘记密码?</span>
+				  </label>
+				</div>
+				<input type="submit" value="登录" id="submit" on-tap="login()"/>
+			</form>
+			<p><a href="#/regit">快速注册 >></a></p>
+			<p><span></span><i>其他账号登录</i><span></span></p>
+			<div>
+				<ul class="other">
+					<li><a href="javascript:;"><img src="img/login/qq.png"/></a></li>
+					<li><a href="javascript:;"><img src="img/login/weixin.png"/></a></li>
+					<li><a href="javascript:;"><img src="img/login/weibo.png"/></a></li>
+				</ul>
+			</div>
+		</ion-content>
+		</ion-view>

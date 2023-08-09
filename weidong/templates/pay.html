@@ -1,0 +1,57 @@
+		<ion-view view-title="支付" class="pay">
+		<ion-header-bar align-title="center" class="bar-positive">
+			<a href="javascript:history.back();" class="button ion-ios-arrow-left"></a>
+			
+			<h3 class="title">支付订单</h3>
+			<a href="javascript:;" class="button ion-loop" on-tap="reload()"></a>
+		</ion-header-bar>
+		<ion-content>
+			<div class="item item-thumbnail-left">
+				<img src="img/user/pay1.png" alt="" />
+				<p>订单编号：<span>4157892</span></p>
+				<p>订单金额：￥<span ng-bind="totalPri"></span>.00</p>
+			</div>
+			<h3>支付方式:</h3>
+			<ion-list>
+				<div  class="padding">
+				<ion-item class="item-icon-left item-icon-right radio-item">
+					<i class="icon"><img ng-src="img/user/img1.png" alt="" /></i>
+					银行卡支付
+					<i class="icon"><img ng-src="img/user/check2.png" alt="" /></i>
+				</ion-item>
+				<ion-item class="item-icon-left item-icon-right radio-item">
+					<i class="icon"><img ng-src="img/user/img2.png" alt="" /></i>
+					微信支付
+					<i class="icon"><img ng-src="img/user/check1.png" alt="" /></i>
+				</ion-item>
+				<ion-item class="item-icon-left item-icon-right radio-item">
+					<i class="icon"><img ng-src="img/user/img3.png" alt="" /></i>
+					支付宝支付
+					<i class="icon"><img ng-src="img/user/check1.png" alt="" /></i>
+				</ion-item>
+				</div>
+			</ion-list>
+			<h3>支持以下支付平台在线支付</h3>
+			<div class="row">
+				<div class="col-50">
+					<a href="javascript:;"><img ng-src="img/user/pay2.png" class="active"/></a>
+				</div>
+				<div class="col-50">
+					<a href="javascript:;"><img ng-src="img/user/pay3.png"/></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-50">
+					<a href="javascript:;"><img ng-src="img/user/pay4.png"/></a>
+				</div>
+				<div class="col-50">
+					<a href="javascript:;"><img ng-src="img/user/pay5.png"/></a>
+				</div>
+			</div>
+		</ion-content>
+		<ion-footer-bar class="bar-royal">
+			<span>实付金额：</span>
+			<span>￥<i ng-bind="totalPri"></i>.00 元</span>
+			<a href="javascript:;">确认支付</a>
+		</ion-footer-bar>
+</ion-view>

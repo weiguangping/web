@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css?family=FuturaBT");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 14px !important;
+  color: #000;
+  font-family: "FuturaBT" !important;
+  width: 100%;
+  height: 100%;
+}
+article,
+aside,
+dialog,
+footer,
+header,
+section,
+footer,
+nav,
+figure,
+menu {
+  display: block;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  border: 0;
+}
+a {
+  outline: none;
+}
+a:active {
+  outline: none;
+}
+a:focus {
+  outline: none;
+}
+input {
+  outline: none;
+  border: none;
+}
+input[type="text"] {
+  padding-left: 8px;
+}
+input[type="password"] {
+  padding-left: 8px;
+}
+input[type="submit"] {
+  cursor: pointer;
+}
+label {
+  cursor: pointer;
+}
+textarea {
+  outline: none;
+  padding-left: 8px;
+}
+button {
+  outline: none;
+}
+img {
+  border: none;
+  vertical-align: middle;
+}
+ul,
+ol,
+dl {
+  list-style: none;
+}
+p {
+  line-height: 24px;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.ov {
+  clear: both;
+  overflow: hidden;
+}
+.mg {
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+}
+.b_all {
+  border: 1px solid #ccc;
+}
+.b_s {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.b_h {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+i {
+  font-style: normal;
+}
+b {
+  font-weight: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+.df {
+  display: flex;
+}
+.df_h {
+  display: flex;
+  flex-direction: row;
+}
+.df_s {
+  display: flex;
+  flex-direction: column;
+}
+.df_hcen {
+  align-items: center;
+}
+.df_scen {
+  justify-content: center;
+}
+.df_allcen {
+  align-items: center;
+  justify-content: center;
+}
+.hidden {
+  display: none;
+}
+.hidden2 {
+  position: fixed;
+  left: 10000%;
+  top: 100000%;
+}
+.hidden3 {
+  visibility: hidden;
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
+.page {
+  width: 100%;
+  height: 100%;
+}
+.page2{
+  background: white;
+}
+.tr {
+  text-align: right;
+}
+.tl {
+  text-align: left;
+}
+.page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .containers {
+    background: white;
+    height: 100%;
+    flex: 1;
+    width: 100%;
+    overflow: auto;
+  }
+}
+.checkbox {
+  position: relative;
+  height: 16px;
+}
+.checkbox input[type="checkbox"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  opacity: 0;
+}
+.checkbox label {
+  position: absolute;
+  left: 30px;
+  top: 0;
+  height: 16px;
+  line-height: 16px;
+}
+.checkbox label:before {
+  content: "";
+  position: absolute;
+  left: -30px;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+}
+.checkbox label:after {
+  content: "";
+  position: absolute;
+  left: -27px;
+  top: 3px;
+  width: 10px;
+  height: 10px;
+  border: 0;
+  border-radius: 50%;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  background: #fff;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+}
+.checkbox input[type="checkbox"]:checked + label:before {
+  background: white;
+  border-color: #000;
+}
+.checkbox input[type="checkbox"]:checked + label:after {
+  background: #000;
+}
+.mpad_h {
+  padding: 0 1.428571rem;
+}
+.mpad_s {
+  padding: 1.428571rem 0;
+}
+.mpad_all {
+  padding: 1.428571rem;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}

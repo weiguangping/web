@@ -1,0 +1,34 @@
+.container p.address{margin: 20px 0;}
+.container p.address span{color: #cf231e;}
+.container .sidebar{float: left;width: 156px;border: 1px solid #dddddd;margin-right: 45px;}
+.container .sidebar h3{width: 100%;height: 48px;background: #eeeeee;text-align: center;line-height: 48px;font-size: 18px;}
+.container .sidebar li h4{font-size: 18px;padding-left: 40px;cursor: pointer;height: 34px;border-top: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;line-height: 34px;font-weight: normal;background: url(../img/user/san.jpg) no-repeat right 21px center;}
+.container .sidebar li ol{padding: 10px 0;}
+.container .sidebar li ol li a{font-size: 16px;color: #999999;display: block;padding-left: 40px;line-height: 27px;}
+.container .sidebar li ol li.active a,.container .sidebar li ol li a:hover{color: #cf231e;}
+.container .main{overflow: hidden; margin-bottom: 50px;}
+.container .main .head{height: 52px;background: #e5e5e5;}
+.container .main .head span{line-height: 52px;display: inline-block;text-align: center;font-size: 18px;}
+.container .main .head span.info{width: 422px;}
+.container .main .head span.price{width: 200px;}
+.container .main .head span.zhuang{width: 205px;}
+.container .main .head span.logistics{width: 137px;}
+
+.container .main ul{padding-top: 14px;}
+.container .main ul li{padding: 20px 0;clear: both;overflow: hidden;background: #e5e5e5;margin-bottom: 18px;}
+.container .main ul li div{float: left;}
+.container .main ul li div.info{width: 422px;}
+.container .main ul li div.info img{float: left;margin-left: 56px;margin-right: 10px;width: 117px;height: 104px;border: 1px solid #8f8f8f;}
+.container .main ul li div p{font-size: 16px;margin-top: 39px;text-align: center;}
+.container .main ul li div.info p a{font-size: 12px;}
+.container .main ul li div.info .text p{font-size: 12px;margin: 0;text-align: left;}
+.container .main ul li div.info .text p span{float: right;margin-right: 20px;}
+.container .main ul li div.info .text p:first-child{margin-top: 9px;}
+.container .main ul li div.info .text p:nth-child(3){margin-top: 7px;}
+.container .main ul li div.price{width: 200px;}
+.container .main ul li div.zhuang{width: 220px;}
+.container .main ul li div.logistics{width: 137px;}
+.container .main ul li div.logistics p{color: #bd0202;}
+.container .main>h3{font-size: 18px;background: #e5e5e5;line-height: 33px;font-weight: normal;padding-left: 13px;margin: 10px 0;}
+.container .main>p{font-size: 18px;line-height: 35px;padding-left: 13px;}
+.container .main>p.time{font-size: 14px;}

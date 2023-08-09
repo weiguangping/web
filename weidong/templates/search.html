@@ -1,0 +1,48 @@
+		<ion-view view-title="搜索" class="search">
+		<ion-header-bar align-title="center" class="bar-positive button-right">
+			<div class="row">
+				<a href="javascript:history.back();" class="ion-ios-arrow-left"></a>
+				<input type="text" placeholder="搜索商品" class="col-60 auto" autofocus="autofocus" id="auto"/>
+				<a href="javascript:history.back();" class="col-25">取消</a>
+			</div>
+		</ion-header-bar>
+		<ion-content>
+			<div class="ul">
+				<h3>热门搜索</h3>
+				<ul class="row row-wrap">
+					<li ng-repeat="v in data" class="col-20"><a ng-href="{{v.url}}" ng-bind="v.name"></a></li>
+				</ul>
+			</div>
+			<div class="ul">
+				<h3>历史搜索</h3>
+				<ul class="row row-wrap">
+					<li ng-repeat="v in data2" class="col-20"><a ng-href="{{v.url}}" ng-bind="v.name"></a></li>
+				</ul>
+			</div>
+			<p><a href="javascript:;" on-tap="clear()"><i class="icon ion-ios-trash-outline"></i>清除历史记录</a></p>
+		</ion-content>
+		<ion-footer-bar class="footer">
+			<div class="tabs tabs-icon-top">
+				<a href="#/app/product" class="tab-item">
+					<i class="icon ion-bag"></i>
+					<span class="tab-title">逛逛</span>
+				</a>
+				<a href="#/app/prosort" class="tab-item">
+					<i class="icon ion-ios-keypad-outline"></i>
+					<span class="tab-title">分类</span>
+				</a>
+				<a href="#/app/homepage" class="tab-item active">
+					<i class="icon ion-ios-box-outline"></i>
+					<span class="tab-title">首页</span>
+				</a>
+				<a href="#/app/shopcar" class="tab-item">
+					<i class="icon ion-ios-cart-outline"></i>
+					<span class="tab-title">购物车</span>
+				</a>
+				<a href="#/app/user" class="tab-item">
+					<i class="icon ion-ios-person-outline"></i>
+					<span class="tab-title">我</span>
+				</a>
+			</div>
+		</ion-footer-bar>
+</ion-view>

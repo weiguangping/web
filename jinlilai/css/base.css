@@ -1,0 +1,64 @@
+*{margin: 0;padding: 0;font-size: 12px;font-family: "宋体";color: #333333;}
+a{cursor: pointer;text-decoration: none;outline: none;border: 0;}
+a:focus { outline:none; star:expression(this.onFocus=this.blur());}
+input{outline: none;}
+input[type="text"]{padding-left: 10px;}
+input[type="password"]{padding-left: 10px;}
+textarea{outline: none;padding-left: 10px;}
+button{outline: none;}
+img{border: none;display: block;}
+ul,ol{list-style: none;}
+p{line-height: 24px;}
+.font1{font-family: "微软雅黑";}
+.mg{margin: 0 auto;width: 1200px;}
+.ng{margin: 0 auto;width: 1000px;}
+.container{margin: 0 auto;width: 1170;}
+
+.fl{float: left;}
+.fr{float: right;}
+.ov{clear: both;overflow: hidden;}
+.header{border-bottom: 2px solid #32435d;}
+.header .top{height: 26px;background: #cccccc;padding-left: 10px;}
+.header .top span{color: #333333;font-size: 12px;font-family: "宋体";line-height: 26px;}
+.header .top .fl span:first-of-type{margin-right: 30px;}
+.header .top .fr>span{margin-right: 30px;}
+.header .top .fr span span{margin: 0 9px;}
+.header .logo{margin-top: 10px;}
+.header .search{margin-top: 14px;}
+.header .search .text{width: 414px;height: 34px;border:1px solid #333366;margin-left: 157px;padding-left: 6px;line-height: 34px;}
+.header .search .button{width: 90px;height: 36px;background: #32435d;border: none;color: white;font-size: 16px;text-align: center;line-height: 16px;vertical-align:bottom;font-family: "微软雅黑";}
+.header .search p{margin-left: 157px;margin-top: 10px;font-size: 12px;}
+.header .shopcar{width: 170px;height: 42px;border: 1px solid #cecece;display: block;float: right;margin-right: 20px;margin-top: 14px;text-align: center;font-size: 16px;line-height: 40px;font-family: "微软雅黑";}
+.header .shopcar img{display: inline-block;vertical-align: middle;}
+.header .shopcar span{font-size: 18px;font-family: "微软雅黑";vertical-align: middle;}
+.header .shopcar span:first-of-type{padding: 0 8px;font-size: 16px;font-family: "微软雅黑";}
+.header .nav ul li{float: left;}
+.header .nav ul li a{display: block;padding: 0px 34px;font-size: 18px;height: 49px;line-height: 50px;font-family: "微软雅黑";}
+.header .nav ul li .one{width: 200px;height: 49px;padding: 0;text-align: center;line-height: 50px;background: url(../images/common/bg1.jpg) no-repeat;color: white;font-family: "微软雅黑";}
+.header .nav ul li .on{color: red!important;}
+.header .nav ul li:first-child{width: 200px;}
+.header .nav li dl{border: 1px solid #CCCCCC;background: white;display: none;position: absolute;z-index: 100;width: 200px;margin-left: -1px;}
+.header .nav li dl img{display: inline;vertical-align: middle;margin-right: 6px;}
+.header .nav li dl dd{padding:0 15px;}
+.header .nav li dl dd:first-child div{padding-top: 20px;}
+.header .nav li dl dd div{padding: 10px 0px 0px 11px;border-bottom: 1px solid #CCCCCC;}
+.header .nav li dl dd .last{border: none;}
+.header .nav li dl dd div span{font-size: 14px;color: black;font-weight: bold;vertical-align: middle;}
+.header .nav li dl dd a{display: inline-block;padding: 0;font-size: 14px;height: auto;line-height: 40px;}
+.header .nav li dl dd a:first-of-type{padding-left: 24px;}
+.banner{position: relative;height: 435px;width: 100%;overflow: hidden;}
+.banner .bd{position: absolute;height:435px;width: 100%;}
+.banner .bd li{width: 100%;position: absolute;height: 435px;overflow: hidden;}
+.banner .bd li a{position: absolute;width: 1862px;height: 435px;left: 50%;margin-left: -931px;}
+
+.footer {margin-top: 58px;}
+.footer .top{width: 100%;height: 60px;background: #cccccc;}
+.footer .top img{display: inline;vertical-align: middle;}
+.footer .top li{width: 20%;height: 60px;float: left;line-height: 60px;text-align: center;}
+.footer .top li span{line-height: 60px;font-size: 18px;font-family: "微软雅黑";vertical-align: middle;}
+.footer .center{background: #32435d;padding: 30px 0 20px 0;}
+.footer .center ul li{float: left;width: 200px;text-align: center;color: white;font-size: 12px;line-height: 30px;}
+.footer .center ul li dd a{color: white;font-size: 12px;line-height: 30px;display: block;}
+.footer .center ul li .on{font-size: 14px;text-align: left;display: block;color: white;padding-left: 20px;}
+.footer .bottom{width: 100%;height: 30px;background: #333333;}
+.footer .bottom p{text-align: center;color: white;line-height: 30px;font-size: 12px;}

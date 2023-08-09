@@ -1,0 +1,64 @@
+<ion-view view-title="产品详情" class="pro_detail">
+	<ion-header-bar align-title="center" class="bar-positive">
+			<a href="javascript:history.back();" class="button ion-ios-arrow-left"></a>
+			<h3 class="title">产品详情</h3>
+			<a href="javascript:;" class="button ion-loop" on-tap="reload()"></a>
+		</ion-header-bar>
+		<a href="#/app/shopcar" class="icon ion-ios-cart-outline shopcaricon">
+			<i ng-bind="num"></i>
+		</a>
+		<ion-content>
+			<div class="top">
+				<img ng-src="{{data.img}}" alt="" />
+				<p ng-bind="data.name"></p>
+				<p class="price">￥<span ng-bind="data.price"></span>.00</p>
+				<p>总销量:<span ng-bind="data.num"></span><i>|</i><span ng-bind="data.pin"></span></p>
+				<div class="btn"><span>数量：</span><a href="javascript:;" on-tap="reduce()">-</a><input type="text" ng-model="val"  maxlength="2" class="num" ng-focus="focus()" ng-blur="blur()"/><a href="javascript:;" on-tap="add()">+</a></div>
+				<p><a class="icon ion-android-share-alt" on-tap="share()"><span>分享</span></a><a class="icon ion-heart" on-tap="follow()"><span>关注商品</span></a></p>
+				<div class="but">
+					<a href="#/confirm_order" class="buy" on-tap="buy()">立即购买</a><a href="javascript:;" class="add" on-tap="addCar()">加入购物车</a>
+				</div>
+			</div>
+			<div class="bottom">
+				<div>
+					<button class="button-clear active">商品规格</button>
+				</div>
+				<div>
+					<button class="button-clear">商品介绍</button>
+				</div>
+				<div>
+					<button class="button-clear">商品评论</button>
+				</div>
+			</div>
+			<div class="text">
+				<p>品牌：<span ng-bind="data.pinpai"></span></p>
+				<p>重量：<span ng-bind="data.zhongliang"></span></p>
+				<p>颜色：<span ng-bind="data.color"></span></p>
+			</div>
+			<div class="otherText"></div>
+		</ion-content>
+		<ion-footer-bar class="footer">
+			<div class="tabs tabs-icon-top">
+				<a href="#/app/product" class="tab-item active">
+					<i class="icon ion-bag"></i>
+					<span class="tab-title">逛逛</span>
+				</a>
+				<a href="#/app/prosort" class="tab-item">
+					<i class="icon ion-ios-keypad-outline"></i>
+					<span class="tab-title">分类</span>
+				</a>
+				<a href="#/app/homepage" class="tab-item">
+					<i class="icon ion-ios-box-outline"></i>
+					<span class="tab-title">首页</span>
+				</a>
+				<a href="#/app/shopcar" class="tab-item">
+					<i class="icon ion-ios-cart-outline"></i>
+					<span class="tab-title">购物车</span>
+				</a>
+				<a href="#/app/user" class="tab-item">
+					<i class="icon ion-ios-person-outline"></i>
+					<span class="tab-title">我</span>
+				</a>
+			</div>
+		</ion-footer-bar>
+</ion-view>

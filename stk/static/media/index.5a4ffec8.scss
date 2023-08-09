@@ -1,0 +1,57 @@
+.forgot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .main {
+    .title {
+      font-size: 36px;
+    }
+    p {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    .form {
+      .group {
+        margin-top: 37px;
+        p {
+        }
+        input {
+          width: 507px;
+          padding-bottom: 10px;
+          margin-top: 10px;
+          padding-left: 0;
+          border-bottom: 1px solid rgba(74, 74, 74, 1);
+          &::-webkit-input-placeholder,
+          &::-moz-placeholder,
+          &:-ms-input-placeholder,
+          &:-moz-placeholder {
+            color: #9b9b9b;
+          }
+        }
+      }
+      .btn {
+        width: 236px;
+        height: 45px;
+        background: rgba(248, 231, 28, 1);
+        line-height: 45px;
+        text-align: center;
+        margin-top: 37px;
+        cursor: pointer;
+      }
+      .btn2{
+        width: 236px;
+        height: 45px;
+        background:rgba(26,26,26,1);
+        line-height: 45px;
+        text-align: center;
+        margin-top: 37px;
+        color: white;
+        img{
+          width: 13px;
+          height: 10px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

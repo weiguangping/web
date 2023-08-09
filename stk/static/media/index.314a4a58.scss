@@ -1,0 +1,90 @@
+.orderhistory {
+  padding-left: 66px;
+  padding-right: 66px;
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  .title {
+    font-size: 36px;
+    margin-top: 69px;
+    margin-bottom: 18px;
+  }
+  .maintable{
+    flex: 1;
+    height: 100%;
+    overflow: auto;
+  }
+  .tabel {
+    flex: 1;
+    margin-top: 10px;
+    .thead {
+      display: flex;
+      border-bottom: 1px solid #000;
+      padding-bottom: 10px;
+      .item {
+        flex: 1;
+      }
+      .date {
+        width: 180px;
+        text-align: center;
+      }
+      .status {
+        width: 180px;
+        text-align: center;
+      }
+    }
+    .tbody {
+      display: flex;
+       margin-top: 20px;
+      .item {
+        flex: 1;
+        display: flex;
+        .text {
+          .name {
+            font-size: 20px;
+            width: 400px;
+          }
+          img {
+            width: 106px;
+            height: 35px;
+          }
+          .qty {
+            margin-top: 6px;
+            margin-bottom: 9px;
+          }
+          .price {
+            color: #ff8800;
+            margin-top: 8px;
+          }
+        }
+        .text1{
+          .price{
+            color: #ff8800;
+          }
+        }
+        .text2{
+          .price{
+            color: #000;
+          }
+        }
+        .itemimg {
+          width: 197px;
+          height: 112px;
+          margin-right: 20px;
+        }
+      }
+      .date {
+        width: 180px;
+      }
+      .status {
+        width: 180px;
+      }
+    }
+  }
+  .bot {
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+}

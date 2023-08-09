@@ -1,0 +1,128 @@
+.mobileorderhistory {
+  height: 75vh;
+  overflow: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  .title {
+    font-size: 1.714286rem;
+    margin-top: 1.785714rem;
+    margin-bottom: 1.285714rem;
+    display: flex;
+    justify-content: space-between;
+    span {
+      font-size: 14px;
+      line-height: 1.714286rem;
+      i {
+        font-size: 14px;
+      }
+    }
+  }
+  .tabel {
+    flex: 1;
+    .thead {
+      display: flex;
+      border-bottom: 1px solid #000;
+      padding-bottom: 0.714286rem;
+      .item {
+        flex: 1;
+      }
+      .date {
+        width: 12.857143rem;
+      }
+      .status {
+        width: 12.857143rem;
+      }
+    }
+    .tbody {
+      display: flex;
+      margin-top: 1.428571rem;
+      .item {
+        flex: 1;
+        display: flex;
+        .text {
+          .name {
+            font-size: 1.428571rem;
+            width: 28.571429rem;
+          }
+          img {
+            width: 7.571429rem;
+            height: 2.5rem;
+          }
+          .qty {
+            margin-top: 0.428571rem;
+            margin-bottom: 0.642857rem;
+          }
+          .price {
+            color: #ff8800;
+            margin-top: 0.571429rem;
+          }
+        }
+        .itemimg {
+          width: 14.071429rem;
+          height: 8rem;
+          margin-right: 1.428571rem;
+        }
+      }
+      .date {
+        width: 12.857143rem;
+      }
+      .status {
+        width: 12.857143rem;
+      }
+    }
+    .group {
+      width: 100%;
+      &+.group{
+        margin-top: 1.785714rem;
+      }
+      .item {
+        display: flex;
+        margin-top: .714286rem;
+        .itemimg {
+          width: 10.428571rem;
+          height: 5.928571rem;
+          margin-right: .5rem;
+        }
+        .text{
+          .name{
+            width: 12.857143rem;
+            font-size: 1.285714rem;
+          }
+        }
+      }
+      .qty{
+        margin-top: .857143rem;
+      }
+      .img{
+        width: 7.571429rem;
+        height: 2.5rem;
+        margin-top: .571429rem;
+        margin-bottom: .642857rem;
+      }
+      .date{
+        margin-top: .857143rem;
+      }
+      .status{
+        margin-top: .857143rem;
+      }
+    }
+  }
+  .bot {
+    position: fixed;
+    bottom: 1.5rem;
+  }
+  .bottext1{
+    .price{
+      color: #ff8800;
+    }
+  }
+  .bottext2{
+    .price{
+      color: #000;
+    }
+  }
+  .maingroup{
+    height: auto;
+  }
+}

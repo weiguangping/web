@@ -1,0 +1,69 @@
+﻿@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+body,html{
+	font-size: 12px;
+	font-family:"微软雅黑";
+}
+i,b{
+	font-style: normal;
+	text-decoration: none;
+	font-weight: normal;
+}
+img{
+	border: none;	
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 100%;
+	font-weight: normal;
+}
+textarea{
+	resize: none;
+	outline: none;
+}
+input{
+	border: none;
+	background: none;
+	outline: none;
+}
+ul,li,ol,dl,dd{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+a{
+	outline: none;
+	text-decoration: none!important;
+}
+a:focus{
+	outline: none;
+}
+a:active{
+	star:expression(this.onFocus=this.blur());
+}
+.container{
+	padding: 0;
+}
+p{
+	margin: 0;
+}
+.clear {
+	zoom: 1;
+	clear: both;
+}
+.clear:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.bg{
+	background: #f2f2f2;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}

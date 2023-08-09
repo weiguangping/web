@@ -1,0 +1,115 @@
+.cart {
+  .topheader {
+    display: flex;
+    padding-top: 45px;
+    .li {
+      margin-right: 30px;
+      span {
+        width: 22px;
+        height: 22px;
+        display: inline-block;
+        border-radius: 50%;
+        border: 1px solid #000000;
+        text-align: center;
+        line-height: 22px;
+        margin-right: 8px;
+      }
+      i {
+        color: #000000;
+      }
+      &.active {
+        span {
+          background: #000;
+          color: white;
+        }
+      }
+    }
+  }
+  .cart2 {
+    .main {
+      display: flex;
+      justify-content: space-between;
+      .left {
+        .title {
+          font-weight: 350;
+        }
+        .form {
+          .group {
+            display: flex;
+            margin-top: 20px;
+            input {
+              flex: 1;
+              width: 100%;
+              border-bottom: 1px solid #000;
+              padding-bottom: 10px;
+              padding-left: 0;
+              & + input {
+                margin-left: 10px;
+              }
+              &::-webkit-input-placeholder,
+              &::-moz-placeholder,
+              &:-ms-input-placeholder,
+              &:-moz-placeholder {
+                color: #9b9b9b;
+              }
+            }
+          }
+          p {
+            font-size: 12px;
+            margin-top: 12px;
+            color: #000;
+          }
+        }
+        .checkbox {
+          margin: 20px 0;
+          label {
+            padding-left: 0px;
+          }
+        }
+        .btn {
+          width: 236px;
+          height: 45px;
+          background: rgba(248, 231, 28, 1);
+          line-height: 45px;
+          text-align: center;
+          float: right;
+          padding: 0;
+          margin-bottom: 20px;
+          margin-top: 20px;
+          cursor: pointer;
+        }
+      }
+      .right {
+        .li{
+          margin-top: 5px;
+        }
+        .title {
+          font-size: 14px;
+          border-bottom: 1px solid #000;
+          padding-bottom: 10px;
+        }
+        .bigimg {
+          width: 197px;
+          height: 112px;
+        }
+        .name {
+          font-size: 20px;
+          margin-top: 29px;
+        }
+        .qty {
+          font-size: 14px;
+          margin-top: 10px;
+        }
+        .smalimg {
+          width: 106px;
+          height: 35px;
+          margin-top: 10px;
+        }
+        .price {
+          color: #ff8800;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}

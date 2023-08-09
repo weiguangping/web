@@ -1,0 +1,35 @@
+		<ion-view view-title="分类" class="sort">
+		<ion-side-menus enable-menu-with-back-views="false">
+		<ion-header-bar align-title="center" class="bar-positive">
+			<a href="javascript:history.back();" class="button ion-ios-arrow-left"></a>
+			
+			<h3 class="title">珠宝分类</h3>
+			<a href="javascript:;" class="button ion-loop" on-tap="reload()"></a>
+		</ion-header-bar>
+		<div class="row">
+			<div class="buttons" on-tap="left()">
+				<button class="ion-ios-arrow-back button-clear"></button>
+			</div>
+			<div class="ul col-90 top">
+				<ul class="row row-wrap">
+					<li class="col-25"><a ng-href="javascript:;" class="active">天然宝石</a></li>
+					<li class="col-25"><a ng-href="javascript:;">天然玉石</a></li>
+					<li class="col-25"><a ng-href="javascript:;">天然彩石</a></li>
+					<li class="col-25"><a ng-href="javascript:;">天然有机石</a></li>
+					<li class="col-25"><a ng-href="javascript:;">人工有机石</a></li>
+				</ul>
+			</div>
+			<div class="buttons" on-tap="right()">
+				<button class="ion-ios-arrow-forward button-clear"></button>
+			</div>
+			</div>
+			
+		<ion-content>
+			<div class="prolist">
+				<ul class="row row-wrap">
+					<li class="col col-33" ng-repeat="v in data"><a ng-href="{{v.url}}"><img ng-src="{{v.img}}"/></a><p><a ng-href="{{v.url}}" ng-bind="v.name"></a></p></li>
+				</ul>
+				<div class="otherText"></div>
+			</div>
+		</ion-content>
+		</ion-view>

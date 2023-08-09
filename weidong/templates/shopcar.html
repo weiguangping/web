@@ -1,0 +1,32 @@
+<ion-view view="购物车" class="shopcar">
+		<ion-header-bar align-title="center" class="bar-positive">
+			<a href="javascript:history.back();" class="button ion-ios-arrow-left"></a>
+			<h3 class="title">购物车</h3>
+			<a href="javascript:;" class="button ion-loop" on-tap="reload()"></a>
+		</ion-header-bar>
+		<ion-content>
+			<ion-list ng-repeat="v in proList">
+				<ion-item class="item-thumbnail-left" id="{{v.id}}">
+					<label class="checkbox checkbox-assertive"><input type="checkbox" ng-click="checkBtn($event,{{v.id}})" ng-model="v.ischeck"></label>
+					<a ng-href="{{v.url}}"><img ng-src="{{v.img}}"/></a>
+					<p><a ng-href="{{v.url}}" ng-bind="v.name"></a></p>
+					<p>￥：<span ng-bind="v.price"></span>.00</p>
+					<div class="btn"><span>数量：</span><a href="javascript:;" on-tap="reduce($index,{{v.id}})">-</a><input type="text" ng-model="v.number" maxlength="2" ng-focus="focus($event,$index)" ng-blur="blur($event,$index)"/><a href="javascript:;" on-tap="add($index,{{v.id}})">+</a></div>
+					<a href="javascript:;" class="icon ion-ios-close-outline" on-tap="del($index,{{v.id}})"></a>
+				</ion-item>
+			</ion-list>
+		</ion-content>
+		<div class="row">
+				<div class="col-20">
+					<label class="checkbox checkbox-dark"><input type="checkbox" ng-click="checkAll($event)" ng-model="checkedAll" id="checkA"></label>
+				<label for="checkA">全选</label>
+				</div>
+				<div class="col-60">
+					<span>合计:</span>
+					<span>￥<i ng-bind="tolPrice"></i>.00</span>
+				</div>
+				<div class="col-20">
+					<a href="#/confirm_order" id="sum">去结算</a>
+				</div>
+		</div>
+</ion-view>

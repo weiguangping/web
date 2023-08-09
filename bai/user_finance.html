@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>财务管理</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/head_foot.css">
+    <link rel="stylesheet" type="text/css" href="css/user.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="thead">
+            <div class="container">
+                <div class="row">
+                    <div class="left">
+                        <span>百单网-中国创意服务在线交易平台</span>
+                    </div>
+                    <div class="right">
+                        <div class="loginin">
+                            欢饮您，
+                            <span class="subnav_span navdown">
+                                <a href="javascript:void(0)">
+                                    你的名字<i class="arrow"></i>
+                                </a>
+                            </span>
+                            <div class="subnav_option logintop">
+                                <ul>
+                                    <li class="bd_r bd_b">
+                                        <a href="user_center.html">
+                                            <i class="icouser"></i>
+                                            <span>用户中心</span>
+                                        </a>
+                                    </li>
+                                    <li class="bd_r bd_b">
+                                        <a href="user_center.html">
+                                            <i class="icouser"></i>
+                                            <span>我的威客</span>
+                                        </a>
+                                    </li>
+                                    <li class="bd_b">
+                                        <a href="user.html">
+                                            <i class="icouser"></i>
+                                            <span>账号管理</span>
+                                        </a>
+                                    </li>
+                                    <li class="bd_r bd_b">
+                                        <a href="">
+                                            <i class="icouser"></i>
+                                            <span>财务管理</span>
+                                        </a>
+                                    </li>
+                                    <li class="bd_r bd_b">
+                                        <a href="">
+                                            <i class="icouser"></i>
+                                            <span>安全退出</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <span class="loginzt">
+                            <a href="login.html" class="login">登陆</a> /
+                            <a href="register" class="reg">免费注册</a>
+                        </span>
+                        <a href="" class="help">帮助中心</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tbody">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 logo visible-lg visible-md">
+                        <a href="index.html">
+                            <img src="images/logo.jpg">
+                        </a>
+                    </div>
+                    <div class="col-sm-11 col-sm-offset-1 col-md-7 search col-md-offset-1">
+                        <form>
+                            <div class="input-group">
+                                <span class="input-group-addon glyphicon glyphicon-search"></span>
+                                <input type="text" class="form-control">
+                                <div class="input-group-btn ss">
+                                    <button type="button" class="btn btn-default">搜索</button>
+                                </div>
+                                <b>或</b>
+                                <div class="input-group-btn ss ss2">
+                                    <button type="button" class="btn btn-default">免费发布任务</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tfail">
+            <div class="container">
+                <div class="row">
+                    <div class="sibarleft col-md-2 visible-lg visible-md">
+                        <h2 class="clear">
+                            <a>
+                                <strong>用户中心</strong>
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="sibarright col-md-10">
+                        <ul class="clear">
+                            <li><a href="user_center.html">我的百单</a></li>
+                            <li><a href="user.html">帐号管理</a></li>
+                            <li class="on"><a href="user_finance.html">财务管理</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content bg">
+        <div class="container ">
+            <div class="row bg user">
+                <div class="title">
+                    <h3>当前位置：
+                        <a href="index.html">首页</a> > 
+                        <a href="user_center.html">用户中心</a> > 
+                        <a href="user_finance.html">财务管理</a> >
+                        <a href="user_finance.html">财务明细</a> 
+                    </h3>
+                </div>
+                <div class="bot">
+                    <div class="userlert col-lg-2">
+                        <div class="titletab">
+                            <b>我的百单</b>
+                        </div>
+                        <div class="financebox">
+                            <div class="financemess">
+                                <a href="" class="user_pic">
+                                    <img src="images/u172.png">
+                                </a>
+                                <h3 class="user_name">我的百单名称</h3>
+                                <p class="user_money">￥999999.00</p>
+                                <p class="user_allmoney">财务总额</p>
+                                <p class="user_a">
+                                    <a href="">【充值】</a>
+                                    <a href="">【提现】</a>
+                                </p>
+                                <div class="user_cash">
+                                    <p>
+                                        <span>￥599999.00</span>
+                                        <b>可用金额</b>
+                                    </p>
+                                    <p>
+                                        <span>￥400000.00</span>
+                                        <b>冻结金额</b>
+                                    </p>
+                                </div>
+                                <b>备注：帐户总额=可用余额+冻结金额</b>
+                                <ul class="user_opea">
+                                    <li><a href="user_recharge_record.html">充值记录</a></li>
+                                    <li><a href="user_cash_record.html">提现记录</a></li>
+                                    <li><a href="user_recharge.html">我要充值</a></li>
+                                    <li><a href="user_withdrawals.html">我要提现</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="userright col-lg-10">
+                        <div class="task">
+                            <div class="taskthead">
+                                <h2 class="col-lg-6">财务明细
+                                    <span>
+                                        <a href="">
+                                        待付款（<b>8</b>）
+                                        </a>
+                                        <a href="">
+                                            待选稿（<b>12</b>）
+                                        </a>
+                                    </span>
+                                </h2>
+                                <form class="col-lg-4 col-lg-offset-2">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="你想找什么?请输入关键字试试">
+                                        <div class="input-group-btn">
+                                            <button type="button" class="btn btn-default">
+                                                <span class="input-group-addon glyphicon glyphicon-search"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="tasktype">
+                                <div class="choice-lines">
+                                    <span>任务类型：</span>
+                                    <a href=""  class="on">全部</a>
+                                    <a href="">任务</a>
+                                    <a href="">退款</a>
+                                    <a href="">购买</a>
+                                    <a href="">冻结</a>
+                                    <a href="">提现</a>
+                                    <a href="">充值</a>
+                                </div>
+                                <div class="choice-lines">
+                                    <span>财务流向：</span>
+                                    <a href="" class="on">全部</a>
+                                    <a href="">收入</a>
+                                    <a href="">支出</a>
+                                </div>
+                                <div class="choice-lines">
+                                    <span>交易时间：</span>
+                                    <a href="" class="on">全部</a>
+                                    <a href="">近一周</a>
+                                    <a href="">近一个月</a>
+                                    <a href="">近三个月</a>
+                                    <a href="">近半年</a>
+                                </div>
+                            </div>
+                            <div class="financelist">
+                                <div class="finance_head">
+                                    <div class="box">
+                                        <div class="col-xs-2">交易号</div>
+                                        <div class="col-xs-2">交易时间</div>
+                                        <div class="col-xs-2">交易类型</div>
+                                        <div class="col-xs-2">收支摘要</div>
+                                        <div class="col-xs-2">收支金额</div>
+                                        <div class="col-xs-1">状态</div>
+                                        <div class="col-xs-1">操作</div>
+                                    </div>
+                                </div>
+                                <div class="finance_body">
+                                    <ul>
+                                        <li>
+                                            <div class="col-xs-2">52354123</div>
+                                            <div class="col-xs-2">2016/12/19</div>
+                                            <div class="col-xs-2">充值</div>
+                                            <div class="col-xs-2">网站</div>
+                                            <div class="col-xs-2">10000</div>
+                                            <div class="col-xs-1">已完成</div>
+                                            <div class="col-xs-1"><a href="">删除</a></div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-2">52354123</div>
+                                            <div class="col-xs-2">2016/12/19</div>
+                                            <div class="col-xs-2">充值</div>
+                                            <div class="col-xs-2">网站</div>
+                                            <div class="col-xs-2">10000</div>
+                                            <div class="col-xs-1">已完成</div>
+                                            <div class="col-xs-1"><a href="">删除</a></div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-2">52354123</div>
+                                            <div class="col-xs-2">2016/12/19</div>
+                                            <div class="col-xs-2">充值</div>
+                                            <div class="col-xs-2">网站</div>
+                                            <div class="col-xs-2">10000</div>
+                                            <div class="col-xs-1">已完成</div>
+                                            <div class="col-xs-1"><a href="">删除</a></div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-2">52354123</div>
+                                            <div class="col-xs-2">2016/12/19</div>
+                                            <div class="col-xs-2">充值</div>
+                                            <div class="col-xs-2">网站</div>
+                                            <div class="col-xs-2">10000</div>
+                                            <div class="col-xs-1">已完成</div>
+                                            <div class="col-xs-1"><a href="">删除</a></div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-2">52354123</div>
+                                            <div class="col-xs-2">2016/12/19</div>
+                                            <div class="col-xs-2">充值</div>
+                                            <div class="col-xs-2">网站</div>
+                                            <div class="col-xs-2">10000</div>
+                                            <div class="col-xs-1">已完成</div>
+                                            <div class="col-xs-1"><a href="">删除</a></div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-2">52354123</div>
+                                            <div class="col-xs-2">2016/12/19</div>
+                                            <div class="col-xs-2">充值</div>
+                                            <div class="col-xs-2">网站</div>
+                                            <div class="col-xs-2">10000</div>
+                                            <div class="col-xs-1">已完成</div>
+                                            <div class="col-xs-1"><a href="">删除</a></div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-2">52354123</div>
+                                            <div class="col-xs-2">2016/12/19</div>
+                                            <div class="col-xs-2">充值</div>
+                                            <div class="col-xs-2">网站</div>
+                                            <div class="col-xs-2">10000</div>
+                                            <div class="col-xs-1">已完成</div>
+                                            <div class="col-xs-1"><a href="">删除</a></div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-2">52354123</div>
+                                            <div class="col-xs-2">2016/12/19</div>
+                                            <div class="col-xs-2">充值</div>
+                                            <div class="col-xs-2">网站</div>
+                                            <div class="col-xs-2">10000</div>
+                                            <div class="col-xs-1">已完成</div>
+                                            <div class="col-xs-1"><a href="">删除</a></div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-2">52354123</div>
+                                            <div class="col-xs-2">2016/12/19</div>
+                                            <div class="col-xs-2">充值</div>
+                                            <div class="col-xs-2">网站</div>
+                                            <div class="col-xs-2">10000</div>
+                                            <div class="col-xs-1">已完成</div>
+                                            <div class="col-xs-1"><a href="">删除</a></div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-2">52354123</div>
+                                            <div class="col-xs-2">2016/12/19</div>
+                                            <div class="col-xs-2">充值</div>
+                                            <div class="col-xs-2">网站</div>
+                                            <div class="col-xs-2">10000</div>
+                                            <div class="col-xs-1">已完成</div>
+                                            <div class="col-xs-1"><a href="">删除</a></div>
+                                        </li>
+                                         <li>
+                                            <div class="col-xs-2">52354123</div>
+                                            <div class="col-xs-2">2016/12/19</div>
+                                            <div class="col-xs-2">充值</div>
+                                            <div class="col-xs-2">网站</div>
+                                            <div class="col-xs-2">10000</div>
+                                            <div class="col-xs-1">已完成</div>
+                                            <div class="col-xs-1"><a href="">删除</a></div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-2">52354123</div>
+                                            <div class="col-xs-2">2016/12/19</div>
+                                            <div class="col-xs-2">充值</div>
+                                            <div class="col-xs-2">网站</div>
+                                            <div class="col-xs-2">10000</div>
+                                            <div class="col-xs-1">已完成</div>
+                                            <div class="col-xs-1"><a href="">删除</a></div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-2">52354123</div>
+                                            <div class="col-xs-2">2016/12/19</div>
+                                            <div class="col-xs-2">充值</div>
+                                            <div class="col-xs-2">网站</div>
+                                            <div class="col-xs-2">10000</div>
+                                            <div class="col-xs-1">已完成</div>
+                                            <div class="col-xs-1"><a href="">删除</a></div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-2">52354123</div>
+                                            <div class="col-xs-2">2016/12/19</div>
+                                            <div class="col-xs-2">充值</div>
+                                            <div class="col-xs-2">网站</div>
+                                            <div class="col-xs-2">10000</div>
+                                            <div class="col-xs-1">已完成</div>
+                                            <div class="col-xs-1"><a href="">删除</a></div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-2">52354123</div>
+                                            <div class="col-xs-2">2016/12/19</div>
+                                            <div class="col-xs-2">充值</div>
+                                            <div class="col-xs-2">网站</div>
+                                            <div class="col-xs-2">10000</div>
+                                            <div class="col-xs-1">已完成</div>
+                                            <div class="col-xs-1"><a href="">删除</a></div>
+                                        </li>
+                                         <li>
+                                            <div class="col-xs-2">52354123</div>
+                                            <div class="col-xs-2">2016/12/19</div>
+                                            <div class="col-xs-2">充值</div>
+                                            <div class="col-xs-2">网站</div>
+                                            <div class="col-xs-2">10000</div>
+                                            <div class="col-xs-1">已完成</div>
+                                            <div class="col-xs-1"><a href="">删除</a></div>
+                                        </li>
+                                        <li>
+                                            <div class="col-xs-2">52354123</div>
+                                            <div class="col-xs-2">2016/12/19</div>
+                                            <div class="col-xs-2">充值</div>
+                                            <div class="col-xs-2">网站</div>
+                                            <div class="col-xs-2">10000</div>
+                                            <div class="col-xs-1">已完成</div>
+                                            <div class="col-xs-1"><a href="">删除</a></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="taskpage">
+                                <ul class="clear">
+                                    <li><a href="">上一页</a></li>
+                                    <li><a href="">1</a></li>
+                                    <li><a href="">2</a></li>
+                                    <li><a href="">3</a></li>
+                                    <li><a href="">4</a></li>
+                                    <li><a href="">5</a></li>
+                                    <li><a href="">...</a></li>
+                                    <li><a href="">下一页</a></li>
+                                    <li><a href="">末页</a></li>
+                                </ul>
+                                <span>共<b>1000</b>条结果</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lianjie">
+            <div class="container">
+                <div class='row'>
+                    <div class="tabhead">
+                        <ul class="tab clear" id="myTab">
+                            <li class="active">友情链接</li>
+                            <li>合作伙伴</li>
+                            <a href="">申请链接合作</a>
+                        </ul>
+                        <div class="tabbox" id="myTabContent">
+                            <div class="tablist">
+                                <ul class="clear">
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                </ul>
+                            </div>
+                            <div class="tablist" style='display: none;'>
+                                <ul class="clear">
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                    <li><a href="">友情链接</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="thead">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 item list">
+                        <h4>新手指南</h4>
+                        <a href="">会员注册</a>
+                        <a href="">会员注册</a>
+                        <a href="">会员注册</a>
+                        <a href="">会员注册</a>
+                        <a href="">会员注册</a>
+                    </div>
+                    <div class="col-sm-4 item list">
+                        <h4>关于我们</h4>
+                        <a href="">会员注册</a>
+                        <a href="">会员注册</a>
+                        <a href="">会员注册</a>
+                        <a href="">会员注册</a>
+                        <a href="">会员注册</a>
+                        <a href="">会员注册</a>
+                    </div>
+                    <div class="col-sm-4 item">
+                        <img src="images/wwc.jpg">
+                        <div class="share visible-lg">
+                            <a href="">联系客服</a>
+                            <span>分享</span>
+                            <p>
+                                <a href="" class="icowx">
+                                </a>
+                                <a href="" class="icoqq">
+                                </a>
+                                <a href="" class="icosina">
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tfail">
+            <p>百单网</p>
+        </div>
+    </div>
+</body>
+
+</html>

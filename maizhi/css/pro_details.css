@@ -1,0 +1,72 @@
+body{min-height: 1989px;}
+section .banner{height: 210px;}
+
+section .sidebar{height: 968px!important;}
+
+section .main .left{width: 416px;margin-left: 15px;margin-right: 43px;margin-top: 50px;}
+section .main .left h2 span{color: #aa1f1f;font-size: 24px;font-weight: bold;}
+section .main .left h3 span{color: #5d8ba2;font-weight: bold;font-size: 14px;}
+section .main .left h3{border-bottom: 3px solid #5d8ba2;}
+section .main .left h2{font-size: 14px;margin-bottom: 3px;font-weight: normal;}
+section .main .left h3{font-size: 14px;line-height: 24px;font-weight: normal;}
+section .main .left h4{font-size: 14px;line-height: 60px;}
+section .main .left h5{line-height: 24px;font-weight: normal;font-size: 14px;height: 24px;}
+section .main .left p{color: #666666;padding-right: 20px;font-size: 14px;line-height: 26px;height: 52px;}
+
+.main .top form input{width: 164px;height: 20px;background: white;border: 1px solid #a9a9a9;vertical-align: middle;margin-left: 10px;line-height: 20px;}
+
+section .main .right{width: 426px;}
+section .main .right>img{cursor: pointer;border: 1px solid #e5e5e5;margin-top: 20px;margin-bottom: 8px;width: 422px;height: 325px;}
+section .main .right li{float: left;margin-right: 5px;}
+section .main .right li:first-child+li+li+li{margin: 0;}
+section .main .right li.active img{border: 1px solid red;}
+section .main .right li:hover img{border: 1px solid red;}
+section .main .right li img{border: 1px solid #E5E5E5;width: 100px;cursor: pointer;height: 78px;}
+
+section .main>p.download{text-align: right;clear: both;line-height:60px;}
+section .main>p.download img{vertical-align: middle;margin-left: 26px;margin-right: 8px;cursor: pointer;}
+section .main>p.download span{vertical-align: middle;cursor: pointer;height: 16px;line-height: 16px;}
+
+.table{width: 902px;border: 1px solid #aaaaaa;padding-top: 28px;background: #5f84ae;}
+.table ul{background: white;clear: both;overflow: hidden;}
+.table ul li{clear: both;overflow: hidden;height: 30px;border-top: 1px solid #AAAAAA;}
+.table ul li:first-child{border: none;}
+.table ul li h3{color: #5d8ba2;font-size: 14px;font-weight: normal;float: left;width: 155px;padding-left: 20px;line-height: 30px;}
+.table ul li p{float: left;font-size: 14px;color: #666666;line-height: 30px;}
+
+.main{padding-bottom: 10px;}
+.main .tabs{clear: both;overflow: hidden;margin-top: 23px;}
+.main .tabs li{float: left;width: 90px;height: 36px;background: -webkit-linear-gradient(white, #a1a1a1);background: -o-linear-gradient(white, #a1a1a1);background: -moz-linear-gradient(white, #a1a1a1);background: linear-gradient(white, #a1a1a1);-pie-background:linear-gradient(white, #a1a1a1); position: relative;font-size: 14px;color: #333333;text-align: center;line-height: 36px;margin-right: 2px;border: 1px solid #e5e5e5;cursor: pointer;behavior:url(css/PIE.htc);}
+.main .tabs li:hover , .main .tabs li.active{background: #c1c2c1;-pie-background:linear-gradient(#c1c2c1, #c1c2c1);}
+
+.main .lists{margin-top: 30px;}
+.main .lists .bottom{padding-bottom: 40px;border:3px solid #e2e2e2;clear: both;width: 899px;background: white;position: relative;border-top: 0;}
+.main .lists .bottom h4{background: #9f9f9f;color: white;padding-left: 8px;line-height: 20px;margin-bottom: 35px;height: 20px;}
+.main .lists .bottom ul{clear: both;overflow: hidden;padding-left: 20px;}
+.main .lists .bottom li{float: left;margin-right: 10px;cursor: pointer;}
+.main .lists .bottom li p{font-size: 14px;text-align: center;line-height: 28px;}
+.main .lists .bottom li img{width: 100px;border: 1px solid #eeeeee;cursor: pointer;height: 78px;}
+.main .lists .bottom li:hover img{border: 1px solid red;}
+.main .lists .name{text-align: right;line-height: 40px;font-size: 14px;color: #333333;font-weight: bold;padding-right: 35px;}
+
+.sidebar ul>li.active>a{background: #f1f2f4!important;color: #0a4390!important;position: relative;}
+
+.bg{position: fixed;width: 100%;height: 100%;background: rgba(0,0,0,0.8);-pie-background:rgba(0,0,0,0.8);z-index: 1000;top: 0;left: 0;z-index: 9000;behavior: url(css/PIE.htc);display: none;}
+.maskbox{width: 700px;position: fixed;top: 50%;left: 50%;display: none;z-index: 9100;height: 584px;margin-top: -290px;margin-left: -350px;}
+.mask{position: relative;top: -100px;margin:0 auto;z-index: 9100;height: 330px;width: 200px;overflow: hidden;text-align: center;border: 4px solid #999999;background: white;border-bottom: none;}
+.mask .prev{position: absolute;left: 0px;top: 0;font-size: 18px;font-weight: bold;width: 350px;height: 480px;padding-top: 50px;text-align: left;padding-left: 10px;z-index: 9200;cursor: pointer;}
+.mask .next{position: absolute;right: 0px;top:0;font-size: 18px;font-weight: bold;width: 350px;height: 480px;padding-top: 50px;text-align: right;padding-right: 10px;z-index: 9200;cursor: pointer;}
+.mask .next span{font-size: 18px;font-weight: bold;display: none;}
+.mask .prev span{font-size: 18px;font-weight: bold;display: none;}
+.mask .prev:hover span{display:block;}
+.mask .next:hover span{display:block;}
+.mask>img{width: 100%;height: 540px;display: none;}
+.maskbox .close{width: 700px;height: 40px;background: white;border: 4px solid #999999;border-top: 0;position: absolute;bottom: 35px;left: 0px;display: none;}
+.maskbox .close .play{float: right;cursor: pointer;margin-top: 12px;}
+.maskbox .close .pause{float: right;cursor: pointer;margin-top: 12px;display: none;}
+.maskbox .close a.img img{width: auto;height: auto;}
+.maskbox .close a.more{width: 70px;height: 30px;left: 50%;top: 0;margin-left: -35px;top: 5px;line-height: 30px;text-align: center;background: -webkit-linear-gradient(white, #a1a1a1);background: -o-linear-gradient(white, #a1a1a1);background: -moz-linear-gradient(white, #a1a1a1);background: linear-gradient(white, #a1a1a1);-pie-background:linear-gradient(white, #a1a1a1); behavior:url(css/PIE.htc);position: absolute;}
+.maskbox .close p{float: left;color: #333333;font-size: 18px;margin-left: 10px;line-height: 40px;}
+.maskbox .close a.img{float: right;color: white;margin-left: 10px;vertical-align: middle;margin-top: 12px;margin-right: 10px;}
+
+.sidebar ul{background: #e2e5e8;}

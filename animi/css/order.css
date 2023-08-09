@@ -1,0 +1,70 @@
+.container p.address{margin: 20px 0;}
+.container p.address span{color: #cf231e;}
+.container .sidebar{float: left;width: 156px;border: 1px solid #dddddd;margin-right: 45px;}
+.container .sidebar h3{width: 100%;height: 48px;background: #eeeeee;text-align: center;line-height: 48px;font-size: 18px;}
+.container .sidebar li h4{font-size: 18px;padding-left: 40px;cursor: pointer;height: 34px;border-top: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;line-height: 34px;font-weight: normal;background: url(../img/user/san.jpg) no-repeat right 21px center;}
+.container .sidebar li ol{padding: 10px 0;}
+.container .sidebar li ol li a{font-size: 16px;color: #999999;display: block;padding-left: 40px;line-height: 27px;}
+.container .sidebar li ol li.active a,.container .sidebar li ol li a:hover{color: #cf231e;}
+.container .main{overflow: hidden;}
+.container .main .top{border: 1px solid #DDDDDD;clear: both;overflow: hidden;}
+.container .main .top>img{float: left;margin: 30px 50px 50px 50px;}
+.container .main .top .left1{float: left;border-right: 1px dashed #a7a7a7;width: 207px;height: 127px;margin-top: 40px;padding-left: 30px;box-sizing: border-box}
+.container .main .top .left1 p{margin-bottom: 20px;}
+.container .main .top .left1 p img{margin-right: 7px;}
+.container .main .top .left1 p:nth-child(2) img{margin-right: 10px;}
+.container .main .top .left2{float: left;width: 207px;height: 127px;margin-top: 40px;padding-left: 80px;box-sizing: border-box;}
+.container .main .top .left2 p{margin-bottom: 20px;}
+.container .main .top .left2 p:nth-child(2) span{color: #a40000;}
+.container .main .top .right{width: 200px;height: 206px;background: #eeeeee;float: right;border-left: 1px solid #DDDDDD;padding-left: 58px;box-sizing: border-box;}
+.container .main .top .right p{color: #666666;}
+.container .main .top .right p:first-child{margin-top: 70px;margin-bottom: 22px;}
+.container .main .top .right p span{color: #cf231e;}
+
+.container .main .tabs{margin-top: 44px;height: 30px;border-bottom: 2px solid #DDDDDD;margin-bottom: 40px;}
+.container .main .tabs ul{clear: both;overflow: hidden;}
+.container .main .tabs li{float: left;width: 112px;text-align: center;cursor: pointer;line-height: 30px;vertical-align: bottom;height: 30px;position: relative;z-index: 100;font-size: 18px;}
+.container .main .tabs li.active,.container .main .tabs li:hover{border-bottom: 2px solid #cf231e;color: #cf231e;}
+
+.container .main .head{height: 52px;background: #e5e5e5;}
+.container .main .head span{display: inline-block;line-height: 52px;text-align: center;font-size: 18px;}
+.container .main .head span.info{width: 408px;padding-left: 80px;box-sizing: border-box;text-align: left;}
+.container .main .head span.price{width: 163px;}
+.container .main .head span.num{width: 181px;}
+.container .main .head span.opa{width: 175px;}
+.container .main .head span.del{width: 44px;}
+
+.container .main .list ul{padding-top: 14px;display: none;}
+.container .main .list ul:first-child{display: block;}
+.container .main .list li{padding: 20px 0;clear: both;overflow: hidden;background: #e5e5e5;margin-bottom: 18px;}
+.container .main .list li div{float: left;}
+.container .main .list li div.info{width: 408px;box-sizing: border-box;text-align: left;}
+.container .main .list li div.info img{float: left;margin-left: 56px;margin-right: 10px;border: 1px solid #8f8f8f;width: 116px;height: 104px;}
+.container .main .list li div p{font-size: 18px;margin-top: 39px;}
+.container .main .list li div.info .text{float: left;}
+.container .main .list li div.info .text p{font-size: 12px;margin: 0;}
+.container .main .list li div.info .text p:first-child{margin-top: 9px;}
+.container .main .list li div.info .text p:nth-child(3){margin-top: 7px;}
+.container .main .list li div.info .text p a{font-size: 12px;}
+.container .main .list li div.price{width: 163px;text-align: center;}
+.container .main .list li div.num{width: 181px;text-align: center;}
+.container .main .list li div.opa{width: 175px;text-align: center;padding-left: 30px;box-sizing: border-box;}
+.container .main .list li div.opa a{font-size: 18px;margin-top: 39px;display: block;}
+.container .main .list li div.opa p{margin-top: 39px;}
+.container .main .list li div.del{width: 44px;text-align: right;font-size: 18px;}
+.container .main .list li div.del img{margin-top: 41px;cursor: pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

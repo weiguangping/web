@@ -1,0 +1,532 @@
+
+
+
+
+/*当前位置*/
+.location{
+	width: 1200px;
+	height: 42px;
+	margin: 0 auto ; 
+	font-family: "宋体";
+	font-size: 14px;
+	color: #666666;
+}
+.location>p{
+	font-family: "宋体";
+	font-size: 14px;
+	color: #666666;
+	line-height: 42px;
+}
+
+.location>p>a{
+	font-family: "宋体";
+	font-size: 14px;
+	line-height: 42px;
+	color: #666666;
+}
+.location>p>a:hover{color: red;}
+
+/*筛选*/
+.screen{
+	width: 1200px;
+	height: 642px;
+	margin:0 auto ;
+	border: 1px solid #666666;
+}
+
+/*名称*/
+.screen .screen_name{
+	padding: 20px;
+	height: 57px;
+	border-bottom: 1px solid #666666;
+}
+.screen .screen_name>span{
+	float: left;
+	height: 69px;
+	font-family: "宋体";
+	font-size: 14px;
+	color: #333333;
+}
+.screen .screen_name>ul>li{
+	float: left;
+	font-family: "宋体";
+	font-size: 14px;
+	color: #666666;
+	margin-right: 10px;
+	padding-left: 4px;
+	cursor: pointer;
+	padding-right: 2px;
+}
+.screen .screen_name>ul>li>span{
+	font-family: "宋体";
+	font-size: 14px;
+	color: #cf000e;
+	display: inline-block;
+}
+
+
+.screen .screen_name>ul>li:hover{
+	background-color: #CF000E;
+	color: #FFFFFF !important;
+}
+.screen .screen_name>ul>li:hover span{
+	color: #fff;
+}
+
+/*类型 尺寸 厚度 软硬度 价格 都是在一起的*/
+
+.screen .screen_type {
+	padding: 20px;
+	height: 26px;
+	border-bottom: 1px solid #666666;
+}
+.screen .screen_type>span{
+	float: left;
+	/*height: 69px;*/
+	font-family: "宋体";
+	font-size: 14px;
+	color: #333333;
+}
+.screen .screen_type>ul>li{
+	float: left;
+	font-family: "宋体";
+	font-size: 14px;
+	color: #666666;
+	margin-right: 10px;
+	padding-left: 4px;
+	cursor: pointer;
+	padding-right: 4px;
+}
+.screen .screen_type>ul>li>span{
+	font-family: "宋体";
+	font-size: 14px;
+	color: #cf000e;
+	display: inline-block;
+}
+
+.screen .screen_type>ul>li:hover{
+	background-color: #CF000E;
+	color: #FFFFFF !important;
+}
+
+
+/*品牌*/
+.screen .screen_brand {
+	padding: 20px;
+	/*height: 26px;*/
+	/*border-bottom: 1px solid #666666;*/
+}
+.screen .screen_brand>span{
+	float: left;
+	height: 150px;
+	font-family: "宋体";
+	font-size: 14px;
+	color: #333333;
+}
+.screen .screen_brand>ul>li{
+	float: left;
+	/*font-family: "宋体";*/
+	/*font-size: 14px;*/
+	color: #666666;
+	/*margin-right: 10px;*/
+	/*padding-left: 4px;*/
+	cursor: pointer;  /*放手去变成手指*/
+	margin-right: 17px;
+	margin-bottom: 15px;
+	border: 1px solid #666666;
+}
+.screen .screen_brand>ul>li>img{
+	display: block;
+}
+.screen .screen_brand>ul>li>span{
+	font-family: "宋体";
+	font-size: 14px;
+	color: #cf000e;
+	display: inline-block;
+}
+.screen .screen_brand>ul>li:hover{
+	border: 1px solid red;
+}
+
+/*品牌底部*/
+.screen_bottom_one{
+	width: 1200px;
+	height: 36px;
+	margin: 14px auto 0;
+	border: 1px solid #666666;
+}
+
+
+/*第一行左边*/
+.screen_bottom_one .left{
+/*	width:214px ;*/
+	height: 28px;
+	border: 1px solid #666666;
+	margin-left: 12px;
+	margin-top: 3px;
+	float: left;
+}
+.screen_bottom_one .left>ul>li{
+	float: left;
+	font-family: "宋体";
+	font-size: 14px;
+	color: #666666;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.screen_bottom_one .left>ul>li:hover{
+	color: #FFFFFF;
+	background-color: #cf000e;
+	cursor: pointer;  /*放手去变成手指*/
+}
+
+/*第一行右边*/
+
+.screen_bottom_one .right{
+/*	width:214px ;*/
+	height: 28px;
+	/*border: 1px solid #666666;*/
+	margin-left: 12px;
+	margin-right: 4px;
+	margin-top: 3px;
+	float: right;
+}
+
+.screen_bottom_one .right>p{
+	float: left;
+	font-family: "宋体";
+	font-size: 14px;
+}
+.screen_bottom_one .right>p>span:first-child{
+	margin-right: 20px;
+}
+.screen_bottom_one .right>p>span>i{
+	font-style: inherit;
+	color: #cf000e;
+}
+.screen_bottom_one .right>p>span>b{
+	border: 1px solid #666666;
+	display: inline-block;
+	width: 18px;
+	height: 16px;
+	line-height: 18px;
+	text-align: center;
+	margin-right: 4px;
+	margin-top: 6px;
+	cursor: pointer;  /*放手去变成手指*/
+}
+.screen_bottom_one .right>p>span>b:hover{
+	background-color: #666666;
+	color: #FFFFFF;
+}
+/*第二行*/
+
+.screen_bottom_tow{
+	width: 1200px;
+	height: 36px;
+	margin: 0 auto;
+	border: 1px solid #666666;
+	border-top:none ;
+	/*padding-top: 10px;*/
+	
+}
+.screen_bottom_tow .distribution{
+	height: 20px;
+	/*border: 1px solid #000000;*/
+	margin-top: 8px;
+	display: inline-block;
+	float: left;
+	margin-left: 14px;
+	margin-right: 52px;
+}
+
+
+.screen_bottom_tow .distribution>span{
+	display: inline-block;
+	line-height: 22px;
+	font-family: "宋体";
+	font-size: 14px;
+}
+.screen_bottom_tow .distribution>select{
+	font-size: 14px;
+	color: #666666;
+}
+
+/*类型*/
+.screen_bottom_tow .type{
+	height: 20px;
+	/*border: 1px solid #000000;*/
+	margin-top: 8px;
+	display: inline-block;
+	float: left;
+	margin-left: 14px;
+	margin-right: 40px;
+}
+.screen_bottom_tow .type>span{
+	display: inline-block;
+	line-height: 22px;
+	font-family: "宋体";
+	font-size: 14px;
+	margin-right: 5px;
+
+}
+.screen_bottom_tow .type>span>label{
+	cursor: pointer;
+}	
+.screen_bottom_tow .type>span>input{
+	vertical-align: middle;
+	font-size: 16px;
+	cursor: pointer;
+	/*margin-left: 20px;*/
+	cursor: pointer;
+	margin-right:4px;
+	cursor: pointer;
+	-webkit-appearance: none;
+	appearance: none;
+	width: 12px;
+	height: 12px;
+	background-image: url(../img/user/input1.png);
+	position: relative;
+	top: -2px;
+	
+}
+.screen_bottom_tow .type>span>input:checked:after{
+	content:url(../img/user/input2.png);
+	position: absolute;
+	top: -13px;
+	left: 3px;
+	z-index: 2;
+	cursor: pointer;
+	
+}
+
+.screen_bottom_tow .type>span .discount{
+	vertical-align: middle;
+	font-size: 16px;
+	/*margin-left: 20px;*/
+	cursor: pointer;
+	margin-right:4px;
+	cursor: pointer;
+	-webkit-appearance: none;
+	appearance: none;
+	width: 18px;
+	height: 18px;
+	background-image: url(../img/user/input4.png);
+	position: relative;
+	top: -3px;
+}
+.screen_bottom_tow .type>span .discount:checked:after{
+	content:url(../img/user/input3.png);
+	position: absolute;
+	top: -5px;
+	left: 3px;
+	z-index: 2;
+	cursor: pointer;
+}
+
+
+	/*<!--产品内容-->*/
+.content_list{
+	position:relative;
+	
+	width: 1200px;
+	/*height:1000px ;*/
+	margin: 0 auto;
+	margin-top: 25px;
+	
+	
+}
+.content_list>ul{
+	margin-right: -18px;
+	overflow: hidden;
+}
+.content_list>ul>li{
+	display: inline-block;
+	width: 268px;
+	float: left;
+	height: 280px;
+	border: 1px solid #666666;
+	padding: 8px;
+	position: relative;
+	margin-bottom: 50px;
+	margin-right: 18px;
+}
+.content_list>ul>li>a{
+	display: block;
+}
+.content_list>ul>li>a>img{
+	display: block;
+}
+.content_list>ul>li>span{
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #cf000e;
+	display: block;
+	line-height: 30px;
+}
+.content_list>ul>li>span>i{
+	font-style:inherit;
+	font-size: 18px;
+}
+.content_list>ul>li>h1{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #333333;
+	line-height: 24px;
+	font-weight: 500;
+}
+.content_list>ul>li>h1>a{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #333333;
+	line-height: 24px;
+}
+.content_list>ul>li>p{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #333333;
+	line-height: 24px;
+}
+.content_list>ul>li .p{
+	color: #666666;
+}
+
+.content_list .hover{
+	width: 250px;
+	height: 24px;
+	border: 1px solid #666666;
+	margin: 0 auto;
+	position: absolute;
+	top: 20px;
+	left: 18px;
+	background-color: #FFFFFF;
+	opacity: 0.8;
+	display: none;
+}
+/*对比*/
+.content_list .hover .left{
+	display: inline-block;
+	height: 24px;
+	width: 60px;
+	border-right:1px solid #000000 ;
+	padding-left: 12px;
+	float: left;
+}
+.content_list .hover .left>a{
+	color: #666666;
+}
+.content_list .hover .left>a>img{
+	vertical-align: middle;
+	margin-right: 15px;
+}
+/*收藏*/
+.content_list .hover .min{
+	display: inline-block;
+	height: 24px;
+	width: 64px;
+	border-right:1px solid #000000 ;
+	padding-left: 12px;
+	float: left;
+}
+.content_list .hover .min>a{
+	color: #666666;
+}
+.content_list .hover .min>a>img{
+	vertical-align: middle;
+	margin-right: 15px;
+}
+/*加入购物车*/
+.content_list .hover .right{
+	display: inline-block;
+	height: 24px;
+	float: left;
+	/*width: 64px;*/
+	/*border-right:1px solid #000000 ;*/
+	padding-left: 12px;
+}
+.content_list .hover .right>a{
+	color: #666666;
+}
+.content_list .hover .right>a>img{
+	vertical-align: middle;
+	margin-right: 4px;
+}
+/*触发边框*/
+.content_list>ul>li:hover{
+	border: 1px solid #cf000e;
+}
+/*触发头部控件*/
+.content_list ul li:hover .hover{
+	display: block;
+}
+/*触发字体变色*/
+.content_list>ul>li:hover .p>span{
+	color: #CF000E;
+}
+	
+
+
+
+
+
+/**翻页*/
+
+.flip{
+	width: 540px;
+	height: 30px;
+	margin: 30px auto 20px;
+}
+.flip>ul{
+	display: inline-block;
+	float: left;
+	margin-right: 18px;
+}
+.flip>ul>li{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid #FFFFFF;
+	margin-left: 4px;
+	cursor: pointer;  /*放手去变成手指*/
+}
+.flip>ul>li a{display: block;padding: 0 8px 0;}
+.flip>ul>li:nth-child(1) ,.flip>ul>li:nth-last-child(1){
+	border: 1px solid #CCCCCC;
+	padding: 0 3px 0;
+}
+.flip>ul>li:nth-child(1):hover ,.flip>ul>li:nth-last-child(1):hover {
+	background-color: #FFFFFF;
+	color: #333333;
+	border: 1px solid #FF0000;
+}
+.flip>ul>li:nth-child(6){
+	border: 1px solid #FFFFFF;
+}
+.flip>ul>li:nth-child(6):hover{
+	background:none;
+	border: 1px solid #FFFFFF;
+	color: #666666;
+}
+.flip>ul>li:hover{
+	background-color: #b70404;
+	border: 1px solid #b70404;
+	color: #FFFFFF;
+}
+.flip>span>input{
+	display: inline-block;
+	width:32px ;
+	height: 18px;
+	text-align: center;
+	padding: 0;
+}
+.flip>span>span{
+	display: inline-block;
+	border: 1px solid #666666;
+	line-height: 20px;
+	padding:0 5px 0 ;
+	margin-left: 5px;
+	cursor: pointer;  /*放手去变成手指*/
+}
+

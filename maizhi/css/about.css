@@ -1,0 +1,6 @@
+body{min-height: 1499px;}
+section .banner{height: 163px;}
+section .main .bottom p{text-indent: 2em;font-size: 16px;line-height: 32px;margin-top: 60px;width: 865px;height: 64px;}
+section .sidebar{height: 534px!important;}
+section .main+div{display: none;}
+.sidebar ul>li>a{text-align: center;padding: 0;}

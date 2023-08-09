@@ -1,0 +1,24 @@
+.content .mg{background: #bbbfc2;}
+.contact {padding: 0 100px 50px 66px;}
+.contact form input,.contact form textarea{background: none;border: 1px solid black;border-radius: 0;-moz-border-radius: 0;;-webkit-border-radius: 0;resize: none;}
+.contact form label{font-weight: normal;}
+.contact form .yanzhen1{width: 30%;}
+.yanzhen .yanzhen2{width: 100px;background: white;display: inline-block;border-radius: 0;-moz-border-radius: 0;-webkit-border-radius: 0;color: black;letter-spacing: 4px;text-align: center;font-size: 16px;}
+.yanzhen .change{color: black;}
+.form-group button{border-radius: 0;-moz-border-radius: 0;-webkit-border-radius: 0;width: 88px;height: 31px;background: red;color: white;border: none;margin-left: 42px;}
+.btn.focus, .btn:focus, .btn:hover{color:white!important;border: none;}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus{outline: none;}
+.contact .text {margin-top: 20px;}
+.contact .text P{margin: 0 0 3px 0;}
+.form-control:focus{border:1px solid black;-webkit-box-shadow:none;box-shadow:none;}
+@media (min-width: 768px) and (max-width: 991px) {
+	.contact .text{margin-left:102px;}
+	.contact{padding: 0 20px 30px 20px;}
+}
+@media (max-width: 767px){
+	.yanzhen .yanzhen2{margin-top: 10px;margin-bottom: 10px;width: 75px;}
+	.form-group button{margin-left: 0;}
+	.contact{padding: 0 20px 20px 20px;}
+	.contact .map{max-width: 100%!important;}
+}
+

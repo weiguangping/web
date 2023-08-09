@@ -1,0 +1,57 @@
+.container p.address{margin: 20px 0;}
+.container p.address span{color: #cf231e;}
+.container .sidebar{float: left;width: 156px;border: 1px solid #dddddd;margin-right: 45px;}
+.container .sidebar h3{width: 100%;height: 48px;background: #eeeeee;text-align: center;line-height: 48px;font-size: 18px;}
+.container .sidebar li h4{font-size: 18px;padding-left: 40px;cursor: pointer;height: 34px;border-top: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;line-height: 34px;font-weight: normal;background: url(../img/user/san.jpg) no-repeat right 21px center;}
+.container .sidebar li ol{padding: 10px 0;}
+.container .sidebar li ol li a{font-size: 16px;color: #999999;display: block;padding-left: 40px;line-height: 27px;}
+.container .sidebar li ol li.active a,.container .sidebar li ol li a:hover{color: #cf231e;}
+.container .main{overflow: hidden;}
+.container .main .top{border: 1px solid #DDDDDD;clear: both;overflow: hidden;}
+.container .main .top>img{float: left;margin: 30px 50px 50px 50px;}
+.container .main .top .left1{float: left;border-right: 1px dashed #a7a7a7;width: 207px;height: 127px;margin-top: 40px;padding-left: 30px;box-sizing: border-box}
+.container .main .top .left1 p{margin-bottom: 20px;}
+.container .main .top .left1 p img{margin-right: 7px;}
+.container .main .top .left1 p:nth-child(2) img{margin-right: 10px;}
+.container .main .top .left2{float: left;width: 207px;height: 127px;margin-top: 40px;padding-left: 80px;box-sizing: border-box;}
+.container .main .top .left2 p{margin-bottom: 20px;}
+.container .main .top .left2 p:nth-child(2) span{color: #a40000;}
+.container .main .top .right{width: 200px;height: 206px;background: #eeeeee;float: right;border-left: 1px solid #DDDDDD;padding-left: 58px;box-sizing: border-box;}
+.container .main .top .right p{color: #666666;}
+.container .main .top .right p:first-child{margin-top: 70px;margin-bottom: 22px;}
+.container .main .top .right p span{color: #cf231e;}
+.container .main .center h3{font-size: 16px;font-weight: normal;margin-top: 30px;margin-bottom: 20px;}
+.container .main .center .head{width: 100%;height: 40px;background: #eeeeee;border: 1px solid #DDDDDD;}
+.container .main .center .head span{line-height: 40px;display: inline-block;text-align: center;}
+.container .main .center .head span.info{width: 420px;}
+.container .main .center .head span.price{width: 121px;}
+.container .main .center .head span.time{width: 163px;}
+.container .main .center .head span.zhuang{width: 131px;}
+.container .main .center .head span.opa{width: 120px;}
+.container .main .center ul{border: 1px solid #DDDDDD;border-top: none;}
+.container .main .center li{clear: both;overflow: hidden;padding: 20px 0;}
+.container .main .center li div{float: left;}
+.container .main .center li div p{text-align: center;color: #666666;margin-top: 50px;}
+.container .main .center li div.info{width: 420px;}
+.container .main .center li div.info img{float: left;width: 150px;height: 138px;border: 1px solid #DDDDDD;margin-left: 40px;margin-right: 17px;}
+.container .main .center li div.info .text{float: left;}
+.container .main .center li div.info .text p:first-child{margin-top: 40px;}
+.container .main .center li div.info .text p:first-child+p{margin: 0;}
+.container .main .center li div.info .text p a{font-size: 12px;}
+.container .main .center li div.price{width: 137px;}
+.container .main .center li div.price p{color: #cf231e;}
+.container .main .center li div.time{width: 163px;}
+.container .main .center li div.zhuang{width: 131px;}
+.container .main .center li div.opa{width: 120px;}
+.container .main .center li div.opa a{color: #666666;}
+.container .main .systeminfo h3{font-size: 16px;color: #666666;font-weight: normal;border-bottom: 1px solid #a0a0a0;margin-top: 20px;;line-height: 25px;}
+.container .main .systeminfo li{clear: both;overflow: hidden;padding: 10px 0;}
+.container .main .systeminfo li img{float: left;margin-left: 40px;margin-right: 10px;margin-top: 5px;}
+.container .main .systeminfo li p{overflow: hidden;background: #eeeeee;height: 40px;line-height: 40px;padding-left: 10px;}
+.container .main .systeminfo li span{float: right;margin-top: 20px;}
+.container .main .systeminfo li span.time{margin-right: 8px;margin-left: 50px;}
+.container .main .more h3{border-bottom: 1px solid #a0a0a0;line-height: 25px;font-weight: normal;font-size: 14px;padding-left: 4px;}
+.container .main .more ul{padding: 10px 24px;margin-right: -38px;overflow: hidden;}
+.container .main .more li{float: left;position: relative;width: 207px;margin-right: 38px;}
+.container .main .more li img{width: 207px;height: 207px;}
+.container .main .more a.pri{position: absolute;bottom: 0;height: 35px;width: 100%;background: rgba(255,255,255,0.6);text-align: center;line-height: 35px;color: #666666;}

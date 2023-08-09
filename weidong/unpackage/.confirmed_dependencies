@@ -1,0 +1,165 @@
+{
+  "index.html": {
+    "resources": [
+      "user.html",
+      "css/base.css",
+      "shopcar.html",
+      "img/index/im5.png",
+      "img/com/banner_3.jpg",
+      "category.html",
+      "fonts/pingfang.ttf",
+      "img/com/banner_1.jpg",
+      "img/index/im2.png",
+      "img/com/banner_2.jpg",
+      "fonts/ionicons.ttf",
+      "js/search.json",
+      "js/ionic.bundle.min.js",
+      "css/index.css",
+      "img/user/search.png",
+      "img/index/bg1.jpg",
+      "img/index/img1.png",
+      "img/index/img2.png",
+      "img/index/im4.png",
+      "js/guide.json",
+      "img/index/im3.png",
+      "img/index/pro1.jpg",
+      "css/ionic.min.css",
+      "js/index.js",
+      "img/index/im1.png",
+      "js/history.json",
+      "img/com/guide_2.jpg",
+      "css/guide.css",
+      "img/com/guide_1.jpg",
+      "img/com/bg1.jpg",
+      "img/com/start.jpg",
+      "guide.html",
+      "templates/regit.html",
+      "js/app.js",
+      "templates/pay.html",
+      "js/products.js",
+      "templates/search.html",
+      "templates/login.html",
+      "css/style.css",
+      "js/jquery-1.12.4.min.js",
+      "js/controllers.js",
+      "js/ShopCars.js",
+      "lib/ionic/css/ionic.min.css",
+      "lib/ionic/js/ionic.bundle.min.js",
+      "templates/guide.html"
+    ],
+    "refer": [
+      "user.html",
+      "shopcar.html",
+      "category.html"
+    ]
+  },
+  "user.html": {
+    "resources": [
+      "js/ionic.bundle.min.js",
+      "css/ionic.min.css",
+      "fonts/ionicons.ttf",
+      "img/user/user1.jpg",
+      "css/base.css",
+      "fonts/pingfang.ttf",
+      "css/user.css",
+      "img/user/user1.png",
+      "index.html",
+      "img/user/user2.png",
+      "img/user/user5.png",
+      "img/user/user4.png",
+      "img/user/user6.png",
+      "img/user/user7.png",
+      "shopcar.html",
+      "confirm_order.html"
+    ],
+    "refer": [
+      "index.html",
+      "shopcar.html",
+      "confirm_order.html"
+    ]
+  },
+  "guide.html": {
+    "resources": [
+      "js/ionic.bundle.min.js",
+      "img/com/guide_2.jpg",
+      "css/guide.css",
+      "img/com/guide_1.jpg",
+      "js/guide.json",
+      "img/com/bg1.jpg",
+      "img/com/start.jpg",
+      "css/ionic.min.css",
+      "fonts/ionicons.ttf",
+      "img/com/banner_1.jpg",
+      "index.html"
+    ],
+    "refer": []
+  },
+  "shopcar.html": {
+    "resources": [
+      "js/ionic.bundle.min.js",
+      "css/shopcar.css",
+      "index.html",
+      "user.html",
+      "js/jquery-1.12.4.min.js",
+      "js/shopcar.js",
+      "js/ShopCars.js"
+    ],
+    "refer": [
+      "index.html",
+      "user.html"
+    ]
+  },
+  "category.html": {
+    "resources": [
+      "img/pro/pro2.jpg",
+      "img/pro/pro4.jpg",
+      "img/pro/pro9.jpg",
+      "js/jquery-1.12.4.min.js",
+      "js/pro.json",
+      "img/pro/pro8.jpg",
+      "img/pro/pro5.jpg",
+      "js/ionic.bundle.min.js",
+      "index.html",
+      "css/category.css",
+      "img/pro/pro3.jpg",
+      "img/pro/pro6.jpg",
+      "img/pro/pro1.jpg",
+      "js/category.js",
+      "img/pro/pro7.jpg"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "confirm_order.html": {
+    "resources": [
+      "js/ionic.bundle.min.js",
+      "user.html",
+      "css/confirm_order.css",
+      "js/confirm_order.js",
+      "js/ShopCars.js"
+    ],
+    "refer": [
+      "user.html"
+    ]
+  },
+  "templates/guide.html": {
+    "resources": [
+      "js/ionic.bundle.min.js",
+      "img/com/guide_2.jpg",
+      "img/com/guide_1.jpg",
+      "img/com/start.jpg",
+      "css/ionic.min.css",
+      "index.html",
+      "css/guide.css",
+      "img/com/bg1.jpg",
+      "lib/ionic/css/ionic.min.css",
+      "lib/ionic/js/ionic.bundle.min.js",
+      "js/guide.js",
+      "js/guide.json"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  }
+}

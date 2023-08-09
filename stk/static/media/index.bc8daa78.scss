@@ -1,0 +1,44 @@
+.mobileproile {
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+  .form {
+    .title {
+      font-size: 1.714286rem;
+      margin-top: 3.857143rem;
+    }
+    .group {
+      margin-top: 1.642857rem;
+      img{
+        margin-left: -1.642857rem;
+        cursor: pointer;
+      }
+      p {
+      }
+      input {
+        width: 100%;
+        padding-bottom: .714286rem;
+        margin-top: .714286rem;
+        padding-left: 0;
+        border-bottom: 1px solid rgba(74, 74, 74, 1);
+        font-size: 1.285714rem;
+        padding-right: 1.642857rem;
+        &::-webkit-input-placeholder,
+        &::-moz-placeholder,
+        &:-ms-input-placeholder,
+        &:-moz-placeholder {
+          color: #9b9b9b;
+        }
+      }
+    }
+  }
+  .btn {
+    width: 16.857143rem;
+    height: 3.214286rem;
+    border: .142857rem solid rgba(0, 0, 0, 1);
+    line-height: 3.214286rem;
+    text-align: center;
+    margin-top: 1.642857rem;
+    margin-bottom: 1.428571rem;
+  }
+}

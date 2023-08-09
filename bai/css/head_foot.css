@@ -1,0 +1,407 @@
+.header .thead{
+	line-height: 30px;
+	background: #eaeaea;
+}
+.header .thead .left{
+	float: left;
+}
+.header .thead .right{
+	position: relative;
+	float: right;
+}
+.header .thead .left span{
+	font-size: 14px;
+	color: #000;
+}
+.header .loginin {
+	float: left;
+	margin-right: 10px;
+}
+.header .loginin span{
+	display: inline-block;
+	position: relative;
+	height: 30px;
+	margin-right: 5px;
+	z-index: 10;
+}
+.header  .loginin span a i.arrow{
+    background: url('../images/arrotow.jpg') no-repeat center top;
+    overflow: hidden;
+    transition: all .1s ease-in-out;
+    width: 14px;
+    height: 8px;
+    display: inline-block;
+    color: #000;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.header  .loginin span a i.arrowon{
+	background: url('../images/arrotow.jpg') no-repeat center bottom;
+}
+.header  .loginin span a i.on{
+	background: url('../images/arrotow.jpg') no-repeat center bottom;
+}
+.subnav_option.logintop{
+    top: 40px;
+    left: -90px;
+    display: none;
+    width: 330px;
+    height: 140px;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    z-index: 10000;
+    top: 29px;
+    position: absolute;
+}
+ .subnav_option.logintop li{
+    float: left;
+    width: 109px;
+    height: 69px;
+    text-align: center;
+}
+.bd_r{
+    border-right: 1px solid #e9e9e9;
+}
+.bd_b{
+    border-bottom: 1px solid #e9e9e9;
+}
+
+ .subnav_option.logintop li a{
+	color: #fff;
+}
+ .subnav_option.logintop li a i{
+    background: url('../images/user_icon1.jpg') no-repeat;
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: 13px auto 0;
+}
+ .subnav_option.logintop li:nth-child(2) i{
+	background: url('../images/user_icon2.jpg') no-repeat;
+ }
+  .subnav_option.logintop li:nth-child(3) i{
+	background: url('../images/user_icon3.jpg') no-repeat;
+ }
+  .subnav_option.logintop li:nth-child(4) i{
+	background: url('../images/user_icon4.jpg') no-repeat;
+ }
+  .subnav_option.logintop li:nth-child(5) i{
+	background: url('../images/user_icon5.jpg') no-repeat;
+ }
+.subnav_option.logintop li span{
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    font-size: 12px;
+    color: #000;
+}
+
+.header .thead .right>a,.header .thead .right span a{
+	color: #333;
+	display: inline-block;
+}
+.header .thead .right .help{
+	margin-left: 20px;
+}
+.header .tbody .logo{
+	margin: 37px 0;
+}
+.header .tbody .search .form-control{
+	height: 50px;
+	border: 3px solid rgb(207, 11, 15);
+	padding-left: 30px;
+	width: 444px;
+}
+.header .tbody .search .input-group{
+	position: relative;
+	width: 100%;
+	float: right;
+	line-height: 50px;
+}
+.header .tbody .search{
+	padding: 0;
+	margin-top: 36px;
+}
+.header .tbody .search .input-group b{
+	margin-left: 20px;
+}
+.header .tbody .search .input-group>span{
+	background: none;
+	border-radius: 0;
+	padding: 0;
+	position: absolute;
+	z-index: 10;
+	left:10px;
+	top: 19px;
+	color: #ea1515;
+	border: none;
+}
+.header .tbody .search .ss{
+	display: inline-block;
+	border:none;
+	position: relative;
+	float: left;
+	width: auto;
+}
+.header .tbody .search .ss .btn{
+	border-radius: 0;
+	width: 100px;
+	color: #fff;
+	border:none;
+	background: rgb(207, 11, 15);
+	text-align: center;
+	height: 50px;
+}
+.header .tbody .search .ss2{
+	float: right;
+	top: 0;
+}
+.header .tbody .search .ss2 .btn{
+	
+	line-height: 38px;
+}
+.header .tfail{
+	line-height: 50px;
+}
+.header .tfail .sibarleft{
+	line-height: 50px;
+	float: left;
+	background:rgb(207, 11, 15);
+	padding: 0;
+}
+.header .tfail .sibarleft h2{
+	margin: 0;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+.header .sibar_main{
+	position: absolute;
+	z-index: 20;
+	left: 0;
+	top: 50px;
+	width: 100%;
+}
+.header .tfail .list{
+	background: #3d404d;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+}
+.header .tfail .list li{
+	position: relative;
+	padding-bottom: 3.3px;
+}
+.header .tfail .list .title{
+	height: 35px;
+	margin: 0 15px;
+	background: url(../images/line.jpg) repeat-x center;
+	text-align: center;
+	padding-top: 5px;
+}
+.header .tfail .list .title span{
+	height: 30px;
+    display: block;
+    line-height: 30px;
+    width: 80px;
+    padding: 0 15px;
+    color: #ff4c4c;
+    background: #3d404d;
+    margin: 0 auto;
+}
+.header .tfail .list .tlist{
+    background: #3d404d;
+    position: static;	
+} 
+.header .tfail .list .tlist span{
+    float: left;
+    width: 62px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    padding-left: 15px;
+}
+.header .tfail .list .tlist  span a{
+	color: #fff;
+    white-space: nowrap;
+}
+.header .tfail .sibarleft h2 a{
+	display: inline-block;
+	color: #fff;
+	cursor: pointer;
+}
+.header .tfail .sibarleft  h2 span{
+	margin-left: 0;
+	float: right;
+	cursor: pointer;
+    margin-top: 20px;
+    background: url(../images/arrow.jpg) no-repeat;
+    width: 15px;
+    height: 12px;
+    display: inline-block;
+    cursor: pointer;
+}
+.header .tfail .sibarright{
+	padding:0;
+}
+.header .tfail .sibarright ul li{
+	float: left;
+}
+.header .tfail .sibarright ul li.on a{
+	color: #ff0000;
+}
+.header .tfail .sibarright ul li a{
+	font-size: 18px;
+	color: #000;
+	text-align: center;
+	display: block;
+	width: 120px;
+	line-height: 50px;
+}
+.lianjie{
+	background: #fff;
+}
+.lianjie .tabhead{
+	padding-bottom: 20px;
+}
+.lianjie  .tab li.active{
+	color: #e61717;
+	border-bottom: 1px solid #e61717;
+}
+.lianjie  .tab {
+	margin-top: 25px;
+}
+.lianjie  .tab li{
+	font-size: 14px;
+	float: left;
+	line-height: 40px;
+	cursor: pointer;
+	border-bottom: 1px solid #e6e6e6;
+	color: #333;
+	width: 100px;
+	text-align: center;
+}
+.lianjie  .tab a{
+	float: right;
+	display: block;
+	color: #333;
+	line-height: 40px;
+	font-size: 12px;
+}
+.lianjie  .tabbox {
+	margin-top: 15px;
+}
+.lianjie  .tabbox ul li{
+	float: left;
+	line-height: 24px;
+	margin-right: 10px;
+}
+.lianjie  .tabbox ul li a{
+	font-size: 12px;
+	color: #999999;
+	font-family: '宋体';
+	display: block;
+}
+.footer{
+	
+}
+.footer .thead{
+	overflow: hidden;
+	padding: 40px 0 30px;
+	background: #666666;
+}
+.footer .thead h4{
+	margin-top: 0;	
+	font-size: 28px;
+	font-weight: bold;
+	color: #cccccc;
+}
+.footer .thead .item+.item{
+	background: url(../images/line2.jpg) no-repeat left center;	
+}
+.footer .thead .list  a{
+	width: 50%;
+	color: #fff;
+	display: block;
+	line-height: 40px;
+	font-size: 12px;
+	font-family: '宋体';
+	float: left;
+}
+.footer .thead .list a:nth-child(2n+1){
+	text-align: center;
+}
+.footer .thead .item>img{
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.footer .thead  .share {
+	width: 210px;
+	float: right;
+}
+.footer .thead  .share>a{
+	font-size: 14px;
+	color: #000;
+	text-align: center;
+	background: #fff;
+	width: 100px;
+	display: block;
+	line-height: 30px;
+	margin: 0 auto 55px;
+}
+.footer .thead  .share span{
+	font-size: 16px;
+	color: #fff;
+	display: block;
+	line-height: 44px;
+	text-align: center;
+}
+.footer .thead  .share p a{
+    background: url(../images/hezhuoico.png) no-repeat 0 0;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 0 10px;
+}
+.footer .thead  .share p a.icowx{
+    background-position: -250px 0;
+}
+.footer .thead  .share p a.icoqq{
+    background-position: 0 0;
+}
+.footer .thead  .share p a.icosina{
+    background-position: -50px 0;
+}
+.footer .thead  .share p img{
+	display: block;
+}
+.footer .thead  .share p{
+	text-align: center;
+	font-size: 0;
+	overflow: hidden;
+}
+.footer .tfail{
+	line-height: 66px;
+	background: #363636;
+	text-align: center;
+}
+.footer .tfail p{
+	font-size: 12px;
+	color: #fff;
+}
+@media (min-width: 993px) and (max-width: 1199px){
+	.header .tbody .search .form-control{
+		width: 332px;
+	}
+	.header .tfail .list .tlist span{
+		width: 54px;
+		padding-left: 5px;
+	}
+	.footer .thead .share{
+		width: 140px;
+	}
+}

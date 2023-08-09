@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>订单详情</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/user.css" />
+		<link rel="stylesheet" href="css/idangerous.swiper.css" />
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/base.js"></script>
+		<script type="text/javascript" src="js/idangerous.swiper.min.js"></script>
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="container">
+				<div class="header_left col-sm-3 text-left col-xs-3 clearpd">
+					<span class="hidden-xs">你好，欢迎进入步云品牌商城</span>
+					<a href="index.html"><img src="images/common/logo.png"></a>
+				</div>
+				<div class="header_center col-sm-4">
+					<div class="search">
+						<form action="index.html" method="post" class="">
+							<div class="input-group">
+								<input type="text" />
+								<span class="input-group-btn"><button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+								</span>
+							</div>
+						</form>
+						<p class="text-left">热门搜索：休闲裤、西裤、长裤、短裤</p>
+					</div>
+				</div>
+				<div class="header_right col-sm-5 clearpd">
+					<ul class="nav nav-pills">
+						<li><a href="regit.html">注册&nbsp;&nbsp;&nbsp;|</a></li>
+						<li><a href="login.html">登陆&nbsp;&nbsp;&nbsp;|</a></li>
+						<li class="hidden-xs"><a href="contact.html">帮助&nbsp;&nbsp;&nbsp;|</a></li>
+						<li><a href="order.html">我的订单&nbsp;&nbsp;&nbsp;|</a></li>
+						<li class="hidden-xs"><a href="contact.html">服务中心</a></li>
+					</ul>
+					<p class="text-left hidden-xs">咨询热线：400-957-7456</p>
+					<div class="shopcar text-left hidden-xs">
+						<a href="shop_cart.html"><img src="images/common/car1.png" alt="car1" /></a>&nbsp;&nbsp;&nbsp;购物车中有0件商品&nbsp;&nbsp;&nbsp;<a href="confirm_order.html" class="jie">去结算<span class="caret"></span></a>
+					</div>
+
+				</div>
+				<a href="javascript:;" class="nav_toggle"><span></span><span></span><span></span></a>
+			</div>
+			<div class="header_nav text-center">
+				<div class="container">
+					<ul class="nav nav-pills nav1">
+						<li>
+							<a href="index.html" class="on">首页</a>
+						</li>
+						<li>
+							<a href="brand_introduction.html">品牌介绍</a>
+						</li>
+						<li>
+							<a href="news.html">新闻中心</a>
+						</li>
+						<li>
+							<a href="product.html">产品中心</a>
+						</li>
+						<li>
+							<a href="contact.html">联系我们</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="header_nav1 form-control">
+				<ul class="nav nav-pills nav-stacked">
+					<li>
+						<a href="index.html" class="on">首页</a>
+					</li>
+					<li>
+						<a href="brand_introduction.html">品牌介绍</a>
+					</li>
+					<li>
+						<a href="news.html">新闻中心</a>
+					</li>
+					<li>
+						<a href="product.html">产品中心</a>
+					</li>
+					<li>
+						<a href="contact.html">联系我们</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<div id="myCarousel" class="carousel slide hidden-xs">
+				<!-- 轮播（Carousel）指标 -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+				<!-- 轮播（Carousel）项目 -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<a href="product.html"><img src="images/index/banner1.jpg" alt="First slide"></a>
+					</div>
+					<div class="item">
+						<a href="product.html"><img src="images/index/banner2.jpg" alt="Second slide"></a>
+					</div>
+					<div class="item">
+						<a href="product.html"><img src="images/index/banner1.jpg" alt="Third slide"></a>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-container1 hidden-sm hidden-md hidden-lg">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href="product_detail.html"><img src="images/index/banner1.jpg" /></a>
+					</div>
+					<div class="swiper-slide">
+						<a href="product_detail.html"><img src="images/index/banner2.jpg" /></a>
+					</div>
+					<div class="swiper-slide">
+						<a href="product_detail.html"><img src="images/index/banner1.jpg" /></a>
+					</div>
+				</div>
+			</div>
+			<div class="ng clearfix">
+				<div class="user clearfix oeder_detail">
+					<div class="col-sm-3 left clearpd col-xs-12">
+						<div class="on2">
+							<div class="col-sm-12 left1 ">
+								<span>会员中心</span>
+								<span class="glyphicon glyphicon-menu-down"></span>
+							</div>
+							<div class="col-sm-12 clearpd">
+								<div class="col-sm-12 one">
+									个人中心
+								</div>
+								<div class="clearfix"></div>
+								<ul>
+									<li>
+										<a href="user.html">我的用户中心</a>
+									</li>
+									<li>
+										<a href="shop_cart.html">我的购物车</a>
+									</li>
+									<li>
+										<a href="###" class="active">我的订单</a>
+									</li>
+									<li>
+										<a href="###">我的收藏</a>
+									</li>
+									<li>
+										<a href="###">个人中心</a>
+									</li>
+									<li>
+										<a href="###">我的评价</a>
+									</li>
+									<li>
+										<a href="###">提取现金</a>
+									</li>
+									<li>
+										<a href="###">我的余额</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-sm-12 clearpd">
+								<div class="col-sm-12 one">
+									我的账户
+								</div>
+								<div class="clearfix"></div>
+								<ul class="clearfix">
+									<li>
+										<a href="address.html">地址管理</a>
+									</li>
+									<li>
+										<a href="###">个人信息</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-sm-12 clearpd">
+								<div class="col-sm-12 one">
+									退款维权
+								</div>
+								<div class="clearfix"></div>
+								<ul class="clearfix three">
+									<li>
+										<a href="###">系统消息</a>
+									</li>
+									<li>
+										<a href="###">举报管理</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-9 right col-xs-12 clearfix clearpd">
+						<div class="main col-sm-12 clearfix">
+							<h4>订单详情</h4>
+							<div class="box col-sm-12 clearpd">
+								<div class="top">
+									<p>订单概况：</p>
+									<span>订单号：</span><span>WE2016102367320</span>&nbsp;<span>状态： 代付款</span>
+								</div>
+								<div class="bottom top">
+									<span>订单金额：</span><span>￥39.00</span><span>（以免运费）</span><br />
+									<span>收货信息：</span><span>小伙伴,15874454758</span>,<span>浙江省&nbsp;奉化市&nbsp;南山塘下</span><br />
+									<span>支付方式：</span><span>未支付</span><br />
+									<span>送货方式：</span><span>卖家留言</span>
+								</div>
+							</div>
+							<div class="col-sm-12 box clearpd">
+								<p class="det">订单跟踪详情:</p>
+								<div class="col-sm-4 col-xs-4 clearpd">
+									<span>处理时间</span>
+								</div>
+								<div class="col-sm-4 col-xs-4 clearpd">
+									<span>订单处理</span>
+								</div>
+								<div class="col-sm-4 col-xs-4 clearpd">
+									<span>操作人</span>
+								</div>
+								<div class="col-sm-12 clearpd bo clearfix">
+									<div class="col-sm-4 col-xs-4 clearpd">
+										<span>2016-9-27 14:15:21</span>
+									</div>
+									<div class="col-sm-4 col-xs-4 clearpd">
+										<span>提交订单</span>
+									</div>
+									<div class="col-sm-4 col-xs-4 clearpd">
+										<span>18755547862</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 box clearpd">
+								<p class="shan">商品清单</p>
+								<div class="col-sm-12 clearpd last1 clearfix">
+									<div class="col-sm-1 fast hidden-xs">
+										<span>K9579</span>
+									</div>
+									<div class="col-sm-3 col-xs-4">
+										<img src="images/shop/img1.jpg" />
+									</div>
+									<div class="col-sm-3 col-xs-5">
+										<p>步云西裤</p>
+										<p>K9579</p>
+										<p>颜色: 浅灰</p>
+										<p>尺码: XL</p>
+									</div>
+									<div class="col-sm-2 fast col-xs-3">
+										<span>¥ 249.00</span>
+									</div>
+									<div class="col-sm-1 fast hidden-xs">
+										<span>1</span>
+									</div>
+									<div class="col-sm-2 fast hidden-xs">
+										<span>¥ 249.00</span>
+									</div>
+								</div>
+								<div class="col-sm-12 clearpd last2 text-right">
+									<span class="hidden-xs">商品价格：</span>
+									<span class="pri hidden-xs">￥199.00</span>
+									<span class="hidden-xs">运费：</span>
+									<span class="pri hidden-xs">￥0.00</span>
+									<span class="hidden-xs">优惠：</span>
+									<span class="pri hidden-xs">￥0.00</span>
+									<span>总计：</span>
+									<span class="pri">￥199.00</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer text-center">
+			<ul class="nav nav-pills">
+				<li><a href="index.html">首页&nbsp;&nbsp;&nbsp;|</a></li>
+				<li><a href="brand_introduction.html">品牌介绍&nbsp;&nbsp;&nbsp;|</a></li>
+				<li><a href="news.html">新闻中心&nbsp;&nbsp;&nbsp;|</a></li>
+				<li><a href="product.html">产品中心&nbsp;&nbsp;&nbsp;|</a></li>
+				<li><a href="contact.html">联系我们</a></li>
+			</ul>
+			<p>CopyRight © 2003 - 2015 中国品牌网(www.chinapp.com) 未经授权 禁止复制转载 版权所有 ICP证号： 闽ICP备16012785号-1 如有意见、反馈或投诉等情况，E-mail:admin@chinapp.com请联系我们将会在48小时内给与处理!
+			</p>
+		</div>
+	</body>
+	<!--[if lte IE 8]>
+    	<script src="js/respond.min.js"></script>
+    	<script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+</html>

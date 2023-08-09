@@ -1,0 +1,45 @@
+.proile {
+  padding-left: 66px;
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+  .form {
+    .title {
+      font-size: 36px;
+      margin-top: 54px;
+    }
+    .group {
+      margin-top: 23px;
+      img{
+        margin-left: -23px;
+        cursor: pointer;
+      }
+      p {
+      }
+      input {
+        width: 358px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        padding-left: 0;
+        border-bottom: 1px solid rgba(74, 74, 74, 1);
+        font-size: 18px;
+        padding-right: 23px;
+        &::-webkit-input-placeholder,
+        &::-moz-placeholder,
+        &:-ms-input-placeholder,
+        &:-moz-placeholder {
+          color: #9b9b9b;
+        }
+      }
+    }
+  }
+  .btn {
+    width: 236px;
+    height: 45px;
+    border: 2px solid rgba(0, 0, 0, 1);
+    line-height: 45px;
+    text-align: center;
+    margin-top: 23px;
+    cursor: pointer;
+  }
+}

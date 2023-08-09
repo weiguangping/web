@@ -1,0 +1,106 @@
+<ion-view view-title="首页" class="index">
+	<ion-side-menus>
+	  <!-- 中间内容 -->
+	  <ion-side-menu-content>
+	  	<ion-header-bar align-title="center" class="bar-positive button-right">
+			<div class="row">
+				<a href="javascript:history.back();" class="ion-ios-arrow-left"></a>
+				<a class="col-60" href="#/search" on-tap="clicko()">搜索</a>
+				<a href="#/app/prosort" class="col-20"><i class="icon ion-navicon"></i>分类</a>
+				<a href="javascript:;" class="col ion-more" ng-click="slide()" menu-toggle="right"><i id="crt"></i></a>
+			</div>
+		</ion-header-bar>
+		<ion-content>
+			<ion-slide-box show-pager="true" does-continue="true" auto-play="true" slide-interval="3000">
+				<ion-slide ng-repeat="v in date2">
+					<a href="#/prodetail"><img ng-src="{{v.url}}" alt="" ng-style="{{h}}"/></a>
+				</ion-slide>
+			</ion-slide-box>
+			<div class="tabs tabs-icon-top">
+				<div class="tab-item">
+					<a class="icon" href="###"><img src="img/index/im1.png"/></a>
+					优惠专区
+				</div>
+				<div class="tab-item">
+					<a class="icon" href="#/app/shopcar"><img src="img/index/im2.png"/></a>
+					购物车
+				</div>
+				<div class="tab-item">
+					<a class="icon" href="#/app/product"><img src="img/index/im3.png"/></a>
+					热门产品
+				</div>
+				<div class="tab-item">
+					<a class="icon" href="#/app/prosort"><img src="img/index/im4.png"/></a>
+					分类
+				</div>
+				<div class="tab-item">
+					<a class="icon" href="###"><img src="img/index/im5.png"/></a>
+					客户中心 
+				</div>
+			</div>
+			<div class="tabs tabs-icon-top big">
+				<div class="tab-item">
+					<a class="icon" href="#/app/product"><img src="img/index/img1.png"/></a>
+					新品 
+				</div>
+				<div class="tab-item">
+					<a class="icon" href="#/app/product"><img src="img/index/img2.png"/></a>
+					热卖 
+				</div>
+				<div class="tab-item">
+					<a class="icon" href="#/app/product"><img src="img/index/img2.png"/></a>
+					推荐 
+				</div>
+			</div>
+			<div class="bg">
+				<a href="javascript:;"><img src="img/index/bg1.jpg"/></a>
+			</div>
+			<div class="row row-wrap">
+				<div class="col-33">
+					<a ng-href="#/prodetail"><img ng-src="img/index/pro1.jpg"/></a>
+					<p><a ng-href="#/prodetail">女戒系列以18K材质以玫瑰和白金分色</a></p>
+				</div>
+				<div class="col-33">
+					<a ng-href="#/prodetail"><img ng-src="img/index/pro1.jpg"/></a>
+					<p><a ng-href="#/prodetail">女戒系列以18K材质以玫瑰和白金分色</a></p>
+				</div>
+				<div class="col-33">
+					<a ng-href="#/prodetail"><img ng-src="img/index/pro1.jpg"/></a>
+					<p><a ng-href="#/prodetail">女戒系列以18K材质以玫瑰和白金分色</a></p>
+				</div>
+				<div class="col-33" ng-repeat="v in err">
+					<a ng-href="{{v.url}}"><img ng-src="{{v.img}}"/></a>
+					<p><a ng-href="{{v.url}}" ng-bind="v.name"></a></p>
+				</div>
+			</div>
+			<ion-infinite-scroll ng-if="moredata" on-infinite="loadMore()" distance="1%" ></ion-infinite-scroll>
+		</ion-content>
+	  </ion-side-menu-content>
+	  <!-- 右侧菜单 -->
+	  <ion-side-menu side="right">
+	  	<ion-header-bar align-title="center">
+	  		<div class="title">这是消息页面</div>
+	  	</ion-header-bar>
+	 	<ion-content>
+	 		 	<ion-list>
+	  		<ion-item>
+	  			<a href="#/login">转到登录页</a>
+	  		</ion-item>
+	  		<ion-item>
+	  			<a href="#/regit">转到注册页</a>
+	  		</ion-item>
+	  		</ion-item>
+	  			<ion-item>
+	  			这是消息三
+	  		</ion-item>
+	  			<ion-item>
+	  			这是消息四
+	  		</ion-item>
+	  			<ion-item>
+	  			这是消息五
+	  		</ion-item>
+	  	</ion-list>
+	 	</ion-content>
+	  </ion-side-menu>
+	</ion-side-menus>
+</ion-view>

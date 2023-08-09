@@ -1,0 +1,85 @@
+.shop_title{margin-top: 20px;}
+.shop_title h3{font-size: 36px;color: red;}
+.content div.row{margin-bottom: 5px;}
+.content .row .one1{width: 170px;}
+.content .row .one1 input{vertical-align: middle;}
+.content input[type="checkbox"]{cursor: pointer;}
+.content .row .one1 span{vertical-align: middle;}
+.content .row .one2{width: 360px;}
+.content div.row .one2{padding-left: 20px;width: 330px;}
+.content div.row .one4{padding-left: 35px;width: 175px;}
+.content div.row .one5{width: 150px;}
+.content .row .one3{width: 150px;}
+.content .row .one4{width: 210px;}
+.content .row .one5{width: 140px;}
+.content .row .one6{width: 120px;}
+.content .main{margin-top: 24px;border: 1px solid #CCCCCC;}
+.content div.row{padding: 20px 0 20px 35px;border-bottom: 1px solid #CCCCCC;}
+.content div.row span{vertical-align: middle;}
+.content ul.row li{clear: both;;overflow: hidden;border: 1px solid #cacaca;padding-left: 35px;margin: 35px 0px;}
+.content ul.row li>div{padding: 10px 10px 10px 0;}
+.content ul.row .on{padding-top: 33px;}
+.content ul.row .one2 div{padding: 20px 10px 0 10px;}
+.content ul.row .one2 img{padding-right: 15px;}
+.content ul.row .one4 .reduce{width: 13px;height: 18px;border: 1px solid #333333;display: inline-block;line-height: 18px;text-align: center;padding-left: 2px;}
+.content ul.row .one4 .num{width: 45px;height: 18px;border: none;border-top: 1px solid #333333;border-bottom: 1px solid #333333;text-align: center;padding-left: 0;vertical-align: bottom;line-height: 18px;background: white;color: #333333;}
+.content ul.row .one4 .add{width: 13px;height: 18px;border: 1px solid #333333;display: inline-block;line-height: 18px;text-align: center;padding-left: 2px;}
+.content .bottom{padding: 34px 15px 25px 34px;border-top: 1px solid #CCCCCC;}
+.content .bottom div.fl{margin-right: 70px;height: 14px;}
+.content .bottom div.fl input{vertical-align: bottom;}
+.content .bottom div.fl label{vertical-align: sub;font-size: 14px;}
+.content .bottom a{margin-right: 50px;vertical-align: sub;}
+.content .bottom span span{vertical-align: sub;}
+.content .bottom span b{font-size: 14px;font-style: normal;font-weight: normal;}
+.content .bottom a.fr{display: block;width: 85px;height: 40px;background: red;text-align: center;line-height: 40px;color: white;margin-right: 20px;margin-left: 40px;margin-top: -10px;font-size: 18px;font-family: "微软雅黑";}
+.shop_car a,.shop_car span,.shop_car p{font-size: 14px;}
+
+
+
+.confirm_order .row .one1{height: 1px;}
+.confirm_order ul.row .one4 p{padding-left: 32px;}
+.confirm_order ul.row{padding: 0 15px;}
+.confirm_order ul.row li{padding-left: 19px;background: #f1f1f1;}
+.confirm_order ul.row .one6{width: 70px;}
+.confirm_order ul li a,.confirm_order ul li span,.confirm_order ul li p{font-size: 12px;}
+.confirm_order .message p{font-weight: bold;padding: 0 15px;}
+.confirm_order .message textarea{resize: none;margin: 0 15px;width: 1156px;height: 87px;border: 1px solid #CCCCCC;margin-top: 4px;overflow-y: auto;}
+.confirm_order .total{margin-top: 50px;margin-bottom: 20px;}
+.confirm_order .total span{font-size: 24px;color: #333333;font-family: "微软雅黑";}
+.confirm_order .total p{text-align: right;}
+.confirm_order a.confirm{width: 100px;height: 40px;background: red;text-align: center;line-height: 40px;color: white;margin-right: 15px;margin-left: 6px;margin-top: 50px;}
+
+
+.pay .shop_title h3{font-size: 48px;color: #333333;}
+.pay .xinxi{border: 1px solid #CCCCCC;margin: 144px 44px 0 44px;padding: 0 20px;}
+.pay .xinxi	p{border-bottom: 1px solid #CCCCCC;line-height: 60px;}
+.pay .xinxi	p span{font-size: 18px;padding-left: 10px;}
+.pay .xinxi	p span.cen{margin: 0 400px;}
+.pay .xinxi	span{padding-left: 10px;line-height: 60px;}
+.pay .xinxi	span.cen{margin: 0 428px;}
+.pay .paybtn{display: inline-block;width: 208px;height: 62px;background: red;color: white;text-align: center;line-height: 62px;border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;;margin: 92px 20px 20px 44px;font-size: 36px;font-family: "微软雅黑";}
+.pay .tip{vertical-align: super;}
+
+
+.address{margin: 0 88px 0 100px;}
+.address .address_b{border: 1px solid #CCCCCC;padding: 30px 19px 16px 19px;margin-top: 35px;}
+.address .address_b ul{margin-right: -99px;overflow: hidden;}
+.address .address_b li{float: left;border: 1px solid #CCCCCC;width: 256px;height: 204px;margin-right: 99px;}
+.address .address_b li div{padding: 14px 6px 0px 14px;}
+.address .address_b li div a.fr{width: 40px;height: 26px;background: red;color: white;border: 1px solid #CCCCCC;text-align: center;line-height: 26px;margin-left: 5px;margin-top: 10px;font-size: 14px;}
+.address .address_b li div .edit{background: white!important;color: #333333!important;}
+.address .address_b li div h3{font-size: 24px;font-family: "微软雅黑";}
+.address .address_b li div span.fr{margin-top: 10px;}
+.address .address_b li div span.fr a{font-size: 15px;color: #666666;font-family: "微软雅黑";margin-right: 16px;}
+.address .address_b li div p.ov{font-size: 18px;font-family: "微软雅黑";line-height: 60px;}
+.address .address_b li div p{font-size: 14px;font-family: "微软雅黑";width: 200px;}
+.address .address_b .add_address{border: 1px solid #CCCCCC;margin-top: 50px;padding: 16px 10px 10px;}
+.address .add_address h3{font-size: 24px;line-height: 40px;}
+.address .add_address span{font-size: 14px;line-height: 40px;width: 100px;display: inline-block;}
+.address .add_address input[type="checkbox"]{vertical-align: text-bottom;width: auto;border: none;}
+.address .add_address input{width: 500px;border: none;}
+.address .add_address a{line-height: 40px;}
+.address .add_address .save_address{display: block;width: 182px;height: 45px;background: red;color: white;text-align: center;line-height: 45px;font-size: 24px;font-family: "微软雅黑";border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+.address .confirm_btn{width: 144px;height: 58px;display: block;background: red;color: white;line-height: 58px;text-align: center;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;font-size: 24px;margin-top: 24px;font-family: "微软雅黑";}
+.address .add_address .checkbox{width: 14px;height: 14px;background: url(../images/shop/check4.png) no-repeat;display: inline-block;}
+.address .add_address .checkbox_btn{opacity: 0;filter: alpha(opacity=0);}

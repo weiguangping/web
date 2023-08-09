@@ -1,0 +1,10 @@
+<ion-view view-title="引导页" class= "guide">
+		<ion-content>
+			<ion-slide-box show-pager="false" on-slide-changed="chanGe($index)">
+				<ion-slide ng-repeat="v in data">
+					<img ng-src="{{v.img}}" alt="" ng-style="{{h}}"/>
+					<a href="#/app/homepage">立即体验</a>
+				</ion-slide>
+			</ion-slide-box>
+		</ion-content>
+</ion-view>

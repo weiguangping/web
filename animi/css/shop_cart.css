@@ -1,0 +1,247 @@
+
+
+.container .mg .top{
+	margin-top: 20px;
+	height: 54px;
+	background-color: #e5e5e5;
+	margin-bottom: 23px;
+}
+.container .mg .top .input {
+	display: inline-block;
+	width: 170px;
+}
+.container .mg .top .input label{
+	margin-left: 14px;
+	line-height: 54px;
+	font-size: 18px;
+}
+.container .mg .top .input label input{
+	margin-right: 5px;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #666666;
+	
+	vertical-align: middle;
+	background-color: #FFFFFF;
+	-webkit-appearance: none;
+	appearance: none;
+	margin-right: 6px;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #6b6b6b;
+	cursor: pointer;
+  	position: relative;
+  	margin-top: -5px;
+}
+.container .mg .top .input label input:checked:after{
+	display: block;
+	content: url(../img/base/gou.png);
+  	position: absolute;
+  	top: -4px;
+  	left: 1px;
+  	z-index: 2;
+}
+.container .mg .top .info {
+	display: inline-block;
+	width: 280px;
+	font-size: 18px;
+	line-height: 54px;
+}
+.container .mg .top .price {
+	display: inline-block;
+	width: 215px;
+	font-size: 18px;
+	line-height: 54px;
+	
+}
+.container .mg .top .number {
+	display: inline-block;
+	width: 170px;
+	font-size: 18px;
+	line-height: 54px;
+}
+.container .mg .top .subtotal {
+	display: inline-block;
+	width: 210px;
+	font-size: 18px;
+	line-height: 54px;
+}
+.container .mg .top .operation {
+	display: inline-block;
+	width: 130px;
+	font-size: 18px;
+	line-height: 54px;
+}
+
+
+.container  ul{padding-top: 14px;}
+.container  li{padding: 20px 0;clear: both;overflow: hidden;background: #e5e5e5;margin-bottom: 18px;}
+.container  li div{float: left;}
+.container  li div.input input{margin-left: 14px;display: inline-block;width: 14px;height: 14px;
+	vertical-align: middle;
+	background-color: #FFFFFF;
+	-webkit-appearance: none;
+	appearance: none;
+	margin-right: 6px;
+	/*width: 14px;*/
+	/*height: 14px;*/
+	border: 1px solid #6b6b6b;
+	cursor: pointer;
+  	position: relative;
+}
+.container  li div.input input:checked:after{
+	display: block;
+	content: url(../img/base/gou.png);
+  	position: absolute;
+  	top: -4px;
+  	left: 1px;
+  	z-index: 2;
+}
+.container  li div.info{width: 416px;box-sizing: border-box;text-align: left;}
+.container  li div.info img{float: left;margin-left: 36px;margin-right: 10px;border: 1px solid #8f8f8f;width: 116px;height: 104px;}
+.container  li div p{font-size: 14px;margin-top: 30px;}
+.container  li div.info .text{float: left;}
+.container  li div.info .text p{font-size: 12px;margin: 0;}
+.container  li div.info .text p:first-of-type{margin-top: 7px;}
+.container  li div.info .text p:nth-child(3){margin-top: 7px;}
+.container  li div.info .text p a{font-size: 12px;}
+.container  li div.price{width: 80px; text-align: center;}
+.container  li div.price a{display: block; width: 70px; height: 20px; border: 1px solid #cf0000; text-align: center; color: #cf0000;}
+.container  li div.num{width: 260px;text-align: center;padding-left: 132px;box-sizing: border-box; padding-top: 42px;}
+.container  li div.num input{ display: block; float: left;}
+.container  li div.num input[type=text]{ width: 36px; height: 24px;border: 1px solid #aaaaaa; border-left:none ;border-right:none ; padding: 0; text-align: center;}
+.container  li div.num input[type=button]{ width: 20px; height: 26px; border: 1px solid #aaaaaa; background-color: #FFFFFF; cursor: pointer;}
+.container  li div.tolpri{width: 180px;text-align: center;padding-left: 30px;box-sizing: border-box;}
+.container  li div.tolpri a{font-size: 18px;margin-top: 39px;display: block;}
+.container  li div.tolpri p{margin-top: 39px;}
+.container  li div.date{width: 230px;font-size: 18px;  text-align: center;}
+.container  li div.date a{ display: block; margin-top: 20px;}
+
+
+
+.container .mg .bottom{
+	margin-top: 20px;
+	height: 54px;
+	margin-bottom: 23px;
+	border:1px solid #EEEEEE ;
+}
+.container .mg .bottom .input {
+	display: inline-block;
+	width: 115px;
+}
+.container .mg .bottom .input label{
+	margin-left: 14px;
+	line-height: 54px;
+	font-size: 18px;
+}
+.container .mg .bottom .input label input{
+	margin-right: 5px;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #666666;
+		vertical-align: middle;
+	background-color: #FFFFFF;
+	-webkit-appearance: none;
+	appearance: none;
+	margin-right: 6px;
+	/*width: 14px;*/
+	/*height: 14px;*/
+	border: 1px solid #6b6b6b;
+	cursor: pointer;
+  	position: relative;
+  	margin-top: -5px;
+}
+.container .mg .bottom .input label input:checked:after{
+	display: block;
+	content: url(../img/base/gou.png);
+  	position: absolute;
+  	top: -4px;
+  	left: 1px;
+  	z-index: 2;
+}
+.container .mg .bottom>span{float: left;}
+.container .mg .bottom .seldel {
+	display: inline-block;
+	width: 214px;
+	font-size: 18px;
+	cursor: pointer;
+	line-height: 54px;
+}
+.container .mg .bottom .shou {
+	display: inline-block;
+	width: 252px;
+	font-size: 18px;
+	line-height: 54px;
+	
+}
+.container .mg .bottom .number {
+	display: inline-block;
+	width: 195px;
+	font-size: 18px;
+	line-height: 54px;
+	text-align: right;
+}
+.container .mg .bottom .number span{
+	font-size: 18px;
+	color: red;
+}
+.container .mg .bottom .subtotal {
+	display: inline-block;
+	font-size: 18px;
+	line-height: 54px;
+	width: 290px;
+	text-align: right;
+}
+.container .mg .bottom .subtotal i{
+	font-style: normal;
+	font-size: 18px;
+}
+.container .mg .bottom .operation {
+	display: inline-block;
+	font-size: 18px;
+	line-height: 54px;
+	float: right;
+}
+.container .mg .bottom .operation a{
+	display: inline-block;
+	width: 82px;
+	height: 54px;
+	line-height: 57px;
+	background-color: #cf231e;
+	text-align: center;
+	color: #FFFFFF;
+	border-radius:5px ;
+	margin-left: 44px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

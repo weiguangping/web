@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=100%, initial-scale=1">
   <title>W To Z</title>
   <!--字体图标样式-->
-  <link rel="stylesheet" href="css/solid.css">
-  <link rel="stylesheet" href="css/fontawesome.css">
+  <!-- <link rel="stylesheet" href="css/solid.css"> -->
+  <!-- <link rel="stylesheet" href="css/fontawesome.css"> -->
   <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/sun0225SUN/photos/img/20210715233345.png">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/jquery.min.js" defer=""></script>
@@ -20,9 +20,6 @@
       春风十里不如你！
     </div>
     <div id="hitokoto">
-      <script>
-        hitokoto()
-      </script>
     </div>
     <div class="custom">
       <div class="box">
@@ -115,9 +112,21 @@
 
       <a href=""><br><b>Copyright © 2023 By 小朱同学</b><br> </a>
     </div>
-    <audio autoplay>
+    <!-- <audio autoplay>
       <source src="https://api.uomg.com/api/rand.music?sort=热歌榜" type="audio/mpeg">
-    </audio>
+    </audio > -->
+    <video autoplay="autopaly" loop="loop" id="audios" preload="auto">
+      <source src="../music/1.mp3" />
+    </video>
 </body>
+<script>
+  // 将以下代码添加到js入口函数内即可
+  document.addEventListener('click', function() {
+    document.getElementById('audios').play()
+  })
+  document.addEventListener('touchstart', function() {
+      document.getElementById('audios').play()
+  })
+</script>
 
 </html>
